@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+Copyright 2008 California Institute of Technology. ALL RIGHTS
+RESERVED. U.S. Government Sponsorship acknowledged.
+-->
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="edrn.theme">
+
+   <five:registerPackage package="." initialize=".initialize" />
+
+   <include package=".browser" />
+
+   <include file="skins.zcml" />
+   <include file="profiles.zcml" />
+
+</configure>

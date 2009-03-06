@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+Copyright 2008 California Institute of Technology. ALL RIGHTS
+RESERVED. U.S. Government Sponsorship acknowledged.
+-->
+<object name='portal_css'>
+    <stylesheet
+        title='EDRN Main Stylesheet'
+        id='++resource++edrn.theme.stylesheets/main.css'
+        media='screen'
+        rel='stylesheet'
+        rendering='import'
+        cacheable='True'
+        compression='safe'
+        cookable='True'
+        enabled='1'
+        expression=''
+    />
+</object>

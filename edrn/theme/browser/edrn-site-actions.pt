@@ -1,0 +1,16 @@
+<div i18n:domain='edrn.theme'
+    id='edrn-site-actions'
+    tal:define='accessKeys python:dict(home=1, sitemap=3, contact=9);'>
+    <ul tal:define='siteActions view/siteActions'>
+        <li tal:repeat='siteAction siteActions' tal:attributes='id string:siteaction=${siteAction/id}'>
+            <a href='#'
+                tal:define='title siteAction/title; id siteAction/id; accessKey python:accessKeys.get(id, "");'
+                i18n:attributes='title'
+                i18n:translate=''
+                tal:content='title'
+                tal:attributes='href siteAction/url; title title; accesskey accessKey;'>
+                EDRN Site Action
+            </a>
+        </li>
+    </ul>
+</div>

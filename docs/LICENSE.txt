@@ -1,0 +1,18 @@
+===========
+ Copyright
+===========
+
+Copyright © 2008 by the California Institute of Technology.  ALL RIGHTS
+RESERVED.
+
+The Software is owned by Caltech/JPL and is protected by United States
+copyright laws and applicable international treaties and/or conventions.  The
+United States Government may have prior rights to use some or all of the
+Software as determined under applicable contracts and license agreements with
+Caltech/JPL.
+
+This software was developed at the Jet Propulsion Laboratory, an operating
+division of the California Institute of Technology and is not available for
+use by any person, organization, or other entity without prior, specific
+written permission.
+

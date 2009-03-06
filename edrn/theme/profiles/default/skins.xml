@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+Copyright 2008 California Institute of Technology. ALL RIGHTS
+RESERVED. U.S. Government Sponsorship acknowledged.
+-->
+<object name='portal_skins' allow_any='False' cookie_persistence='False' default_skin='EDRN Theme'>
+    <object name='edrn_theme_custom_images'
+        meta_type='Filesystem Directory View'
+        directory='edrn.theme:skins/edrn_theme_custom_images'
+    />
+    <object name='edrn_theme_custom_templates'
+        meta_type='Filesystem Directory View'
+        directory='edrn.theme:skins/edrn_theme_custom_templates'
+    />
+    <object name='edrn_theme_styles'
+        meta_type='Filesystem Directory View'
+        directory='edrn.theme:skins/edrn_theme_styles'
+    />
+    <skin-path name='EDRN Theme' based-on='Plone Default'>
+        <layer name='edrn_theme_custom_images' insert-after='custom'/>
+        <layer name='edrn_theme_custom_templates' insert-after='edrn_theme_custom_images'/>
+        <layer name='edrn_theme_styles' insert-after='edrn_theme_custom_templates'/>
+    </skin-path>
+</object>

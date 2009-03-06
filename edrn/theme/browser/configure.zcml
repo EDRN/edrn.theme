@@ -1,0 +1,79 @@
+<configure
+    xmlns='http://namespaces.zope.org/zope'
+    xmlns:browser='http://namespaces.zope.org/browser'
+    i18n_domain='edrn.theme'>
+
+    <!-- 'EDRN Theme' Zope 3 browser layer -->
+    <interface
+        interface='.interfaces.IThemeSpecific'
+        type='zope.publisher.interfaces.browser.IBrowserSkinType'
+        name='EDRN Theme'
+    />
+
+    <!-- Resource directory for images -->
+    <browser:resourceDirectory
+        name='edrn.theme.images'
+        directory='images'
+        layer='.interfaces.IThemeSpecific'
+    />
+
+    <!-- Resource directory for stylesheets -->
+    <browser:resourceDirectory
+        name='edrn.theme.stylesheets'
+        directory='stylesheets'
+        layer='.interfaces.IThemeSpecific'
+    />
+
+    <!-- Viewlet managers -->
+    <browser:viewletManager
+        name='edrn.nci_topmost'
+        provides='.interfaces.INCITopmostManager'
+        permission='zope2.View'
+        class='plone.app.viewletmanager.manager.OrderedViewletManager'
+    />
+
+    <!-- Viewlets -->
+    <browser:viewlet
+        name='edrn.skip_links'
+        manager='edrn.theme.browser.interfaces.INCITopmostManager'
+        layer='.interfaces.IThemeSpecific'
+        permission='zope2.View'
+        class='plone.app.layout.viewlets.common.SkipLinksViewlet'
+    />
+    <browser:viewlet
+        name='edrn.nci_bar'
+        manager='edrn.theme.browser.interfaces.INCITopmostManager'
+        layer='.interfaces.IThemeSpecific'
+        permission='zope2.View'
+        class='.viewlets.NCIBar'
+    />
+    <browser:viewlet
+        name='edrn.edrn_actions'
+        manager='plone.app.layout.viewlets.interfaces.IPortalHeader'
+        layer='.interfaces.IThemeSpecific'
+        permission='zope2.View'
+        class='.viewlets.EDRNSiteActions'
+    />
+    <browser:viewlet
+        name='edrn.logo'
+        manager='plone.app.layout.viewlets.interfaces.IPortalHeader'
+        layer='.interfaces.IThemeSpecific'
+        permission='zope2.View'
+        class='.viewlets.EDRNLogo'
+    />
+    <browser:viewlet
+        name='edrn.nci_footer'
+        manager='plone.app.layout.viewlets.interfaces.IPortalFooter'
+        layer='.interfaces.IThemeSpecific'
+        permission='zope2.View'
+        class='.viewlets.EDRNFooter'
+    />
+    <browser:viewlet
+        name='edrn.path_bar'
+        manager='plone.app.layout.viewlets.interfaces.IContentViews'
+        layer='.interfaces.IThemeSpecific'
+        class='plone.app.layout.viewlets.common.PathBarViewlet'
+        permission='zope2.View'
+    />
+
+</configure>

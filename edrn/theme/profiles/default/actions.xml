@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object xmlns:i18n='http://xml.zope.org/namespaces/i18n' name='portal_actions' meta_type='Plone Actions Tool'>
+	<object name='edrnActions' meta_type='CMF Action Category'>
+        <property name='title'>EDRN Top Actions</property>
+		<object name='home' meta_type='CMF Action' i18n:domain='edrn.theme'>
+			<property name='title' i18n:translate='edrn-home-title'>Home</property>
+			<property name='description' i18n:translate='edrn-home-desc'>Back to the EDRN home page</property>
+			<property name='url_expr'>string:${portal_url}</property>
+			<property name='icon_expr'></property>
+   			<property name='available_expr'></property>
+			<property name='permissions'>
+				<element value='View'/>
+   			</property>
+   			<property name='visible'>True</property>
+		</object>
+		<object name='sitemap' meta_type='CMF Action' i18n:domain='edrn.theme'>
+			<property name='title' i18n:translate='edrn-sitemap-title'>Site Map</property>
+			<property name='description' i18n:translate='edrn-sitemap-desc'>Overview of everything on this site</property>
+			<property name='url_expr'>string:${portal_url}/sitemap</property>
+			<property name='icon_expr'></property>
+   			<property name='available_expr'></property>
+			<property name='permissions'>
+				<element value='View'/>
+   			</property>
+   			<property name='visible'>True</property>
+		</object>
+		<object name='contact' meta_type='CMF Action' i18n:domain='edrn.theme'>
+			<property name='title' i18n:translate='edrn-contact-title'>Contact EDRN</property>
+			<property name='description' i18n:translate='edrn-home-desc'>Contact us for questions and concerns</property>
+			<property name='url_expr'>string:${portal_url}/contact-info</property>
+			<property name='icon_expr'></property>
+   			<property name='available_expr'></property>
+			<property name='permissions'>
+				<element value='View'/>
+   			</property>
+   			<property name='visible'>True</property>
+		</object>
+	</object>
+    <object name='site_actions' meta_type='CMF Action Category'>
+        <property name='title'></property>
+		<object name='home' meta_type='CMF Action' i18n:domain='edrn.theme'>
+			<property name='title' i18n:translate='edrn-home-title'>Home</property>
+			<property name='description' i18n:translate='edrn-home-desc'>Back to the EDRN home page</property>
+			<property name='url_expr'>string:${portal_url}</property>
+			<property name='icon_expr'></property>
+   			<property name='available_expr'></property>
+			<property name='permissions'>
+				<element value='View'/>
+   			</property>
+   			<property name='visible'>True</property>
+		</object>
+        <object name='contact' meta_type='CMF Action' i18n:domain='plone'>
+            <property name='title' i18n:translate=''>Contact</property>
+            <property name='description' i18n:translate=''></property>
+            <property name='url_expr'>string:${portal_url}/contact-info</property>
+            <property name='icon_expr'></property>
+            <property name='available_expr'></property>
+            <property name='permissions'>
+                <element value='View'/>
+            </property>
+            <property name='visible'>True</property>
+        </object>
+        <object name='policies' meta_type='CMF Action' i18n:domain='edrn.theme'>
+            <property name='title' i18n:translate=''>Policies</property>
+            <property name='description' i18n:translate=''>Principles and procedures</property>
+            <property name='url_expr'>string:${portal_url}/admin/policies</property>
+            <property name='icon_expr'></property>
+            <property name='available_expr'></property>
+            <property name='permissions'>
+                <element value='View'/>
+            </property>
+            <property name='visible'>True</property>
+        </object>
+        <object name='accessibility' meta_type='CMF Action' i18n:domain='plone'>
+            <property name='title' i18n:translate=''>Accessibility</property>
+            <property name='description' i18n:translate=''></property>
+            <property name='url_expr'>string:${portal_url}/accessibility-info</property>
+                <property name='icon_expr'></property>
+                <property name='available_expr'></property>
+                <property name='permissions'>
+                    <element value='View'/>
+                </property>
+            <property name='visible'>True</property>
+        </object>
+        <object name='viewing' meta_type='CMF Action' i18n:domain='edrn.theme'>
+            <property name='title' i18n:translate=''>Viewing Files</property>
+            <property name='description' i18n:translate=''>Information on file formats</property>
+            <property name='url_expr'>string:${portal_url}/admin/viewing-files</property>
+            <property name='icon_expr'></property>
+            <property name='available_expr'></property>
+            <property name='permissions'>
+                <element value='View'/>
+            </property>
+            <property name='visible'>True</property>
+        </object>
+        <object name='foia' meta_type='CMF Action' i18n:domain='edrn.thene'>
+            <property name='title' i18n:translate=''>FOIA</property>
+            <property name='description' i18n:translate=''>Freedom of Information Act</property>
+            <property name='url_expr'>string:${portal_url}/admin/foia</property>
+            <property name='icon_expr'></property>
+            <property name='available_expr'></property>
+            <property name='permissions'>
+                <element value='View'/>
+            </property>
+            <property name='visible'>True</property>
+        </object>
+        <object name='sitemap' meta_type='CMF Action' i18n:domain='plone'>
+            <property name='title' i18n:translate=''>Site Map</property>
+            <property name='description' i18n:translate=''></property>
+            <property name='url_expr'>string:$portal_url/sitemap</property>
+            <property name='icon_expr'></property>
+            <property name='available_expr'></property>
+            <property name='permissions'>
+                <element value='View'/>
+            </property>
+            <property name='visible'>True</property>
+        </object>
+        <object name='ncihome' meta_type='CMF Action' i18n:domain='edrn.thene'>
+            <property name='title' i18n:translate=''>DCP Home</property>
+            <property name='description' i18n:translate=''>Division of Cancer Prevention</property>
+            <property name='url_expr'>string:http://dcp.cancer.gov/</property>
+            <property name='icon_expr'></property>
+            <property name='available_expr'></property>
+            <property name='permissions'>
+                <element value='View'/>
+            </property>
+            <property name='visible'>True</property>
+        </object>
+        <object name='plone_setup' meta_type='CMF Action' i18n:domain='plone'>
+            <property name='title' i18n:translate=''>Site Setup</property>
+            <property name='description' i18n:translate=''></property>
+            <property
+                name='url_expr'>string:${portal_url}/plone_control_panel</property>
+            <property name='icon_expr'></property>
+            <property name='available_expr'></property>
+            <property name='permissions'>
+                <element value='Manage portal'/>
+            </property>
+            <property name='visible'>True</property>
+        </object>
+    </object>
+</object>

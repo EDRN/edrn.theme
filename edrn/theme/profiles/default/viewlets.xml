@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+Copyright 2008 California Institute of Technology. ALL RIGHTS
+RESERVED. U.S. Government Sponsorship acknowledged.
+-->
+<object>
+    <order manager='edrn.nci_topmost' skinname='EDRN Theme'>
+        <viewlet name='edrn.skip_links'/>
+        <viewlet name='edrn.nci_bar' />
+    </order>
+    <order manager='plone.portaltop' skinname='EDRN Theme'>
+        <viewlet name='plone.header'/>
+        <viewlet name='plone.personal_bar'/>
+        <viewlet name='plone.app.i18n.locales.languageselector'/>
+    </order>
+    <hidden manager='plone.portaltop' skinname='EDRN Theme'>
+        <viewlet name='plone.path_bar' />
+    </hidden>
+    <order manager='plone.portalheader' skinname='EDRN Theme'>
+        <viewlet name='plone.searchbox'/>
+        <viewlet name='edrn.edrn_actions' />
+        <viewlet name='edrn.logo' />
+        <viewlet name='plone.global_sections'/>
+    </order>
+    <hidden manager='plone.portalheader' skinname='EDRN Theme'>
+        <viewlet name='plone.site_actions' />
+        <viewlet name='plone.logo'/>
+        <viewlet name='plone.skip_links'/>
+    </hidden>
+    <order manager='plone.contentviews' skinname='EDRN Theme'>
+        <viewlet name='edrn.path_bar'/>
+        <viewlet name='plone.contentviews'/>
+        <viewlet name='plone.contentactions'/>
+    </order>
+    <order manager='plone.portalfooter' skinname='EDRN Theme'>
+        <viewlet name='edrn.nci_footer' />
+        <viewlet name='plone.colophon'/>
+        <viewlet name='plone.analytics'/>
+    </order>
+    <hidden manager='plone.portalfooter' skinname='EDRN Theme'>
+        <viewlet name='plone.footer'/>
+    </hidden>
+</object>

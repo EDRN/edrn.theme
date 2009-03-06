@@ -1,0 +1,22 @@
+<div id='portal-footer' i18n:domain='edrn.theme'
+    tal:define='siteActions view/siteActions;
+        accessKeys python:dict(home=1, sitemap=3, contact=9, accessibility=0);'>
+    <ul>
+        <li tal:repeat='siteAction siteActions'
+            tal:attributes='id string:siteaction-${siteAction/id}'>
+            <a href='#'
+                tal:define='title siteAction/title;
+                    id siteAction/id;
+                    accessKey python:accessKeys.get(id, "");'
+                i18n:attributes='title'
+                i18n:translate=''
+                tal:content='title'
+                tal:attributes='href siteAction/url;
+                    title title;
+                    accesskey accessKey;'>
+                Site Action
+            </a>
+        </li>
+    </ul>
+    <p i18n:translate='service_of_nci'>A Service of the National Cancer Institute</p>
+</div>
