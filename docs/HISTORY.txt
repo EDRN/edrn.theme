@@ -2,6 +2,13 @@
  Changelog
 ===========
 
+0.0.1 - FCS
+-----------
+
+This is a first customer ship, though it should be considered a work in
+progress.
+
+
 0.0.0 - Unreleased
 ------------------
 
