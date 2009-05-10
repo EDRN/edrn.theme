@@ -19,7 +19,7 @@ borderWidth:string=1px
 borderStyle:string=solid
 borderStyleAnnotations:string=dashed
 
-globalBorderColor:string=#8cacbb
+globalBorderColor:string=rgb(190,193,196)
 globalBackgroundColor:string=#dee7ec
 globalFontColor:string=#436976
 
