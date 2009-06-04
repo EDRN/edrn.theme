@@ -1,43 +1,70 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!--
-Copyright 2008 California Institute of Technology. ALL RIGHTS
-RESERVED. U.S. Government Sponsorship acknowledged.
--->
+<?xml version="1.0"?>
 <object>
-    <order manager='edrn.nci_topmost' skinname='EDRN Theme'>
-        <viewlet name='edrn.skip_links'/>
-        <viewlet name='edrn.nci_bar' />
-    </order>
-    <order manager='plone.portaltop' skinname='EDRN Theme'>
-        <viewlet name='plone.header'/>
-        <viewlet name='plone.personal_bar'/>
-        <viewlet name='plone.app.i18n.locales.languageselector'/>
-    </order>
-    <hidden manager='plone.portaltop' skinname='EDRN Theme'>
-        <viewlet name='plone.path_bar' />
-    </hidden>
-    <order manager='plone.portalheader' skinname='EDRN Theme'>
-        <viewlet name='plone.searchbox'/>
-        <viewlet name='edrn.edrn_actions' />
-        <viewlet name='edrn.logo' />
-        <viewlet name='plone.global_sections'/>
-    </order>
-    <hidden manager='plone.portalheader' skinname='EDRN Theme'>
-        <viewlet name='plone.site_actions' />
-        <viewlet name='plone.logo'/>
-        <viewlet name='plone.skip_links'/>
-    </hidden>
-    <order manager='plone.contentviews' skinname='EDRN Theme'>
-        <viewlet name='edrn.path_bar'/>
-        <viewlet name='plone.contentviews'/>
-        <viewlet name='plone.contentactions'/>
-    </order>
-    <order manager='plone.portalfooter' skinname='EDRN Theme'>
-        <viewlet name='edrn.nci_footer' />
-        <viewlet name='plone.colophon'/>
-        <viewlet name='plone.analytics'/>
-    </order>
-    <hidden manager='plone.portalfooter' skinname='EDRN Theme'>
-        <viewlet name='plone.footer'/>
-    </hidden>
+ <order manager="plone.portalfooter" skinname="Plone Default">
+  <viewlet name="plone.footer"/>
+  <viewlet name="plone.colophon"/>
+ </order>
+ <order manager="plone.portalheader" skinname="Plone Default">
+  <viewlet name="plone.skip_links"/>
+  <viewlet name="plone.site_actions"/>
+  <viewlet name="plone.searchbox"/>
+  <viewlet name="plone.logo"/>
+  <viewlet name="plone.global_sections"/>
+ </order>
+ <order manager="plone.portaltop" skinname="Plone Default">
+  <viewlet name="plone.header"/>
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+  <viewlet name="plone.path_bar"/>
+ </order>
+ <order manager="plone.contentviews" skinname="Plone Default">
+  <viewlet name="plone.contentviews"/>
+  <viewlet name="plone.contentactions"/>
+ </order>
+ <order manager="plone.portalfooter" skinname="EDRN Theme">
+  <viewlet name="edrn.nci_footer"/>
+  <viewlet name="plone.colophon"/>
+  <viewlet name="plone.analytics"/>
+ </order>
+ <order manager="edrn.nci_topmost" skinname="EDRN Theme">
+  <viewlet name="edrn.skip_links"/>
+  <viewlet name="edrn.nci_bar"/>
+ </order>
+ <order manager="plone.portalheader" skinname="EDRN Theme">
+  <viewlet name="plone.searchbox"/>
+  <viewlet name="edrn.edrn_actions"/>
+  <viewlet name="edrn.logo"/>
+  <viewlet name="edrn.skin_logo"/>
+  <viewlet name="plone.global_sections"/>
+  <viewlet name="plone.logo"/>
+  <viewlet name="plone.site_actions"/>
+  <viewlet name="plone.skip_links"/>
+ </order>
+ <order manager="plone.portaltop" skinname="EDRN Theme">
+  <viewlet name="plone.header"/>
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+ </order>
+ <order manager="plone.contentviews" skinname="EDRN Theme">
+  <viewlet name="edrn.path_bar"/>
+  <viewlet name="plone.contentviews"/>
+  <viewlet name="plone.contentactions"/>
+ </order>
+ <hidden manager="plone.portaltop" skinname="EDRN Theme">
+  <viewlet name="plone.path_bar"/>
+ </hidden>
+ <hidden manager="plone.portalfooter" skinname="EDRN Theme">
+  <viewlet name="plone.footer"/>
+ </hidden>
+ <hidden manager="plone.portalheader" skinname="EDRN Theme">
+  <viewlet name="plone.site_actions"/>
+  <viewlet name="plone.logo"/>
+  <viewlet name="plone.skip_links"/>
+  <viewlet name="edrn.logo"/>
+  <viewlet name="edrn.edrn_actions"/>
+ </hidden>
+ <hidden manager="edrn.nci_topmost" skinname="EDRN Theme">
+  <viewlet name="edrn.nci_bar"/>
+  <viewlet name="edrn.skip_links"/>
+ </hidden>
 </object>
