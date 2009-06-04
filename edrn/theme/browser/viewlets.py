@@ -23,6 +23,10 @@ class EDRNSiteActions(SiteActionsViewlet):
 class EDRNLogo(LogoViewlet):
     '''EDRN logo viewlet.'''
     index = ViewPageTemplateFile('edrn-logo.pt')
+
+class EDRNSkinLogo(LogoViewlet):
+    '''EDRN Skin logo viewlet.'''
+    index = ViewPageTemplateFile('edrn-skin-logo.pt')
     
     
 class EDRNFooter(ViewletBase):
