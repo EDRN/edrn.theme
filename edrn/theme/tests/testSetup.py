@@ -45,7 +45,7 @@ class TestSetup(EDRNThemeTestCase):
         self.assertEquals(u'plone.searchbox', viewlets[0], 'Plone searchbox not first in portal header.')
         self.assertEquals(u'edrn.edrn_actions', viewlets[1], 'EDRN special actions not second in portal header.')
         self.assertEquals(u'edrn.logo', viewlets[2], 'EDRN logo not third in portal header.')
-        self.assertEquals(u'plone.global_sections', viewlets[3], 'Plone global sections not fourth in portal header.')
+        self.assertEquals(u'plone.global_sections', viewlets[4], 'Plone global sections not fifth in portal header.')
         hidden = self.storage.getHidden(u'plone.portalheader', _themeName)
         self.failUnless(u'plone.site_actions' in hidden, 'Site actions are not hidden in the portal header.')
         self.failUnless(u'plone.logo' in hidden, 'The Plone logo is not hidden in the portal header.')
