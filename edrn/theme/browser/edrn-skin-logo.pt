@@ -1,0 +1,27 @@
+<!--
+
+<div id='edrn-skin-logo' i18n:domain='edrn.theme' tal:define='home view/navigation_root_url'>
+    <a accesskey='1'
+        tal:attributes='href home'>
+        <img src='logo.jpg' alt='Home' i18n:attributes='alt'
+            tal:attributes='src string:${home}/++resource++edrn.theme.images/logo.gif'
+        />
+    </a>
+</div>
+
+-->
+<div id="edrninformatics">
+  <div id="edrnlogo"><!-- nci logo --></div>
+  <div id="edrn-dna"><!-- edrn-dna graphic --></div>
+  <h2 class="app-title">EDRN Public Portal</h2>
+  <div class="userdetails">
+    &nbsp;&nbsp;
+  </div>
+</div>
+<div class="menu">
+  <!-- Breadcrumbs Area -->
+  <div id="breadcrumbs">
+    &nbsp;&nbsp;
+  </div>
+</div>
+
