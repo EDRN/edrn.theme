@@ -62,6 +62,13 @@
         class='.viewlets.EDRNLogo'
     />
     <browser:viewlet
+	name='edrn.skin_logo'
+	manager='plone.app.layout.viewlets.interfaces.IPortalHeader'
+	layer='.interfaces.IThemeSpecific'
+	permission='zope2.View'
+	class='.viewlets.EDRNSkinLogo'
+    />
+    <browser:viewlet
         name='edrn.nci_footer'
         manager='plone.app.layout.viewlets.interfaces.IPortalFooter'
         layer='.interfaces.IThemeSpecific'
