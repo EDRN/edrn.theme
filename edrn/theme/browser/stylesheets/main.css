@@ -17,6 +17,13 @@ h1 {
 	color: rgb(113, 156, 199);
 	border-bottom: none;
 }
+h2 {
+    font-weight: bold;
+    font-size: 175%;
+}
+h3 {
+    font-size: 150%;
+}
 
 #edrn-logo {
 	background: rgb(254, 252, 211) url(++resource++edrn.theme.images/abstract-bg.jpg) no-repeat scroll top left;
@@ -110,6 +117,12 @@ h1 {
         height: 10px;
         font-size: 1px;
 }
-.attributebox-content { 
+.attributebox-content {
         margin: 0 10px;
+}
+#portal-searchbox {
+    position: absolute;
+    top: 0px;
+    right:120px;
+    width: 180px;
 }
