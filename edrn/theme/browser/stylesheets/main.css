@@ -73,52 +73,52 @@ h3 {
 
 /* Generic boxes of attributes */
 .attributebox {
-        background: #666666 url(++resource++edrn.theme.images/attribute-gradient.gif) repeat-x top left;
-        float: left;
-        width: 14em;
-        color: white;
-        margin: 0.5em 1em 0.5em 1em;
-        font-size: 80%;
+    background: #666666 url(++resource++edrn.theme.images/attribute-gradient.gif) repeat-x top left;
+    float: left;
+    width: 14em;
+    color: white;
+    margin: 0.5em 1em 0.5em 1em;
+    font-size: 80%;
 }
 .attributebox h3 {
-        text-transform: uppercase;
-        color: white;
-        font-size: 100%;
-        padding-left: 0.5em;
-        border-bottom: 2px solid white;
+    text-transform: uppercase;
+    color: white;
+    font-size: 100%;
+    padding-left: 0.5em;
+    border-bottom: 2px solid white;
 }
 .attributebox table {
-        border-collapse: collapse;
-        border-spacing: 0;
-        border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: none;
 }
 .attributebox td, .attributebox th {
-        border-bottom: 1px solid white;
-        text-align: left;
-        padding: 0.5em;
+    border-bottom: 1px solid white;
+    text-align: left;
+    padding: 0.5em;
 }
 .attributebox tr:last-child td, .attributebox tr:last-child th {
-        border-bottom: none;
+    border-bottom: none;
 }
 .attributebox-top div {
-        background: url(++resource++edrn.theme.images/attribute-top-left.gif) no-repeat top left;
+    background: url(++resource++edrn.theme.images/attribute-top-left.gif) no-repeat top left;
 }
 .attributebox-top {
-        background: transparent url(++resource++edrn.theme.images/attribute-top-right.gif) no-repeat top right;
+    background: transparent url(++resource++edrn.theme.images/attribute-top-right.gif) no-repeat top right;
 }
 .attributebox-bottom div {
-        background: url(++resource++edrn.theme.images/attribute-bottom-left.gif) no-repeat bottom left;
+    background: url(++resource++edrn.theme.images/attribute-bottom-left.gif) no-repeat bottom left;
 }
 .attributebox-bottom {
-        background: transparent url(++resource++edrn.theme.images/attribute-bottom-right.gif) no-repeat bottom right;
+    background: transparent url(++resource++edrn.theme.images/attribute-bottom-right.gif) no-repeat bottom right;
 }
 .attributebox-top div, .attributebox-top, .attributebox-bottom div, .attributebox-bottom {
-        width: 100%;
-        height: 10px;
-        font-size: 1px;
+    width: 100%;
+    height: 10px;
+    font-size: 1px;
 }
 .attributebox-content {
-        margin: 0 10px;
+    margin: 0 10px;
 }
 #portal-searchbox {
     position: absolute;
