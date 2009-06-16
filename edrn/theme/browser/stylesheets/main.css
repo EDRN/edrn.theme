@@ -166,3 +166,32 @@ h3 {
 #q-book          a {background: url(++resource++edrn.theme.images/s-newbook.gif);}
 #q-cbrg          a {background: url(++resource++edrn.theme.images/s-newcbrg.gif);}
 #q-dcp           a {background: url(++resource++edrn.theme.images/s-newdcp.gif);}
+
+#portal-column-one .visualPadding {
+    padding: 1em 0 1em 0.5em;
+}
+#portal-column-two .visualPadding {
+    padding: 1em 0.5em 1em 0;
+}
+.edrnQuickLinks {
+    border-bottom: none;
+}
+.portletDMCCRSS {
+    border-bottom: none;
+    font-size: 90%;
+}
+.portletDMCCRSS .portletHeader {
+    display: none;
+}
+.portletDMCCRSS .portletItem {
+    border-right: none;
+}
+.stupidTitle {
+    font-weight: bold;
+}
+.portletItemDetails {
+    padding-top: -3em;
+}
+.portletDMCCRSS .even {
+    background-color: transparent;
+}
