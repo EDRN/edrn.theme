@@ -128,7 +128,7 @@ h3 {
 }
 
 #edrn-quicklinks {
-    margin: 10px 0 0 10px;
+    margin: 10px 0 0 0;
     list-style: none;
     padding: 0;
     font-size: 85%;
@@ -166,9 +166,11 @@ h3 {
 #q-book          a {background: url(++resource++edrn.theme.images/s-newbook.gif);}
 #q-cbrg          a {background: url(++resource++edrn.theme.images/s-newcbrg.gif);}
 #q-dcp           a {background: url(++resource++edrn.theme.images/s-newdcp.gif);}
+#q-advocates     a {background: url(++resource++edrn.theme.images/s-advocates.gif);}
+#q-sites         a {background: url(++resource++edrn.theme.images/s-sites.gif);}
 
 #portal-column-one .visualPadding {
-    padding: 1em 0 1em 0.5em;
+    padding: 1em 0 1em 1em;
 }
 #portal-column-two .visualPadding {
     padding: 1em 0.5em 1em 0;
@@ -208,4 +210,26 @@ h3 {
 }
 .bonusSearchBox input {
     font-size: 110%;
+}
+.garishSearchBox {
+    height: 136px;
+    width: 435px;
+    background: transparent url(++resource++edrn.theme.images/garish-search-bg.png) no-repeat scroll top left;
+    padding: 10px 0 5px 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.garishSearchBox h2 {
+    color: white;
+    text-transform: uppercase;
+    border-bottom: none;
+    font-size: 90%;
+    margin-top: 0.1em;
+}
+.garishSearchBox label {
+    font-size: 200%;
+    color: yellow;
+}
+.garishSearchBox input {
+    font-size: 120%;
 }
