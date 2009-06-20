@@ -16,7 +16,7 @@
   <h2 class="app-title">EDRN Public Portal</h2>
 
   <div class='bonusSearchBox' tal:define='portalURL context/@@plone_portal_state/portal_url;'>
-  <form name='topSearchForm' class='bonusSearchBox' action='#' method='GET' tal:attributes='action string:${portalURL}/search;'>
+  <form name='topSearchForm' class='bonusSearchBox' action='#' method='get' tal:attributes='action string:${portalURL}/search;'>
     <label for='SearchableText' i18n:translate='bonusSearch_searchEDRN'>Search&nbsp;EDRN:</label>&nbsp;<input
       name='SearchableText' id='SearchableText' type='text' size='40' title='Search Site'
       i18n:attributes='title title_search_title;' tal:attributes='value request/SearchableText|nothing;'/>&nbsp;<input
