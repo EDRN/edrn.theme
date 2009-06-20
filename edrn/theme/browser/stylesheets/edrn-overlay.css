@@ -39,7 +39,7 @@ div#edrninformatics {
         padding:5px;
         text-align:right;
         border-bottom:solid 1px #000;
-        overflow:none;
+        overflow:visible;
         background:url(++resource++edrn.theme.images/blackfade-syncd.jpg) scroll 0px 0px repeat-x;
         background-color:#000;
 }
