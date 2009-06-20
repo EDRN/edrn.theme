@@ -18,5 +18,15 @@
             </a>
         </li>
     </ul>
-    <p i18n:translate='service_of_nci'>A Service of the National Cancer Institute</p>
+    <p i18n:translate='service_of_nci'>A Service of the National Cancer Institute</p><strong></strong>
+    <ul tal:define='portalURL context/@@plone_portal_state/portal_url'>
+        <li><a href='http://www.cancer.gov/' class='link-plain' title='NCI'><img src='#' alt='NCI'
+            tal:attributes='src string:${portalURL}/++resource++edrn.theme.images/footer-nci.gif'/></a></li>
+        <li><a href='http://www.hhs.gov/' title='HHS'></a><img src='#' alt='HHS'
+            tal:attributes='src string:${portalURL}/++resource++edrn.theme.images/footer-hhs.gif'/></li>
+        <li><a href='http://www.nih.gov/' title='NIH'><img src='#' alt='NIH'
+            tal:attributes='src string:${portalURL}/++resource++edrn.theme.images/footer-nih.gif'/></a></li>
+        <li><a href='http://www.firstgov.gov/' title='FirstGov'><img src='#' alt='FirstGov'
+            tal:attributes='src string:${portalURL}/++resource++edrn.theme.images/footer-gov.gif'/></a></li>
+    </ul>
 </div>
