@@ -97,9 +97,6 @@ h3 {
     text-align: left;
     padding: 0.5em;
 }
-.attributebox tr:last-child td, .attributebox tr:last-child th {
-    border-bottom: none;
-}
 .attributebox-top div {
     background: url(++resource++edrn.theme.images/attribute-top-left.gif) no-repeat top left;
 }
@@ -190,9 +187,6 @@ h3 {
 }
 .stupidTitle {
     font-weight: bold;
-}
-.portletItemDetails {
-    padding-top: -3em;
 }
 .portletDMCCRSS .even {
     background-color: transparent;
