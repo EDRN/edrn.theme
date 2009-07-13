@@ -119,9 +119,25 @@ h3 {
 }
 #portal-searchbox {
     position: absolute;
-    top: 0px;
-    right:120px;
-    width: 180px;
+    top: 52px;
+    right:155px;
+    width: 200px;
+}
+#portal-searchbox div.LSBox div.searchSection {
+    display:none;
+}
+#portal-searchbox div.LSBox input[type=text] {
+    background:#333;
+    color:#ddd;
+    border:solid 1px #888;
+    padding:3px;
+    width:150px;
+}
+#portal-searchbox div.LSBox input.searchButton {
+    background:auto;
+    background-color:#888;
+    border:outset 1px #666;
+    padding:3px 3px 3px 18px;
 }
 
 #edrn-quicklinks {
@@ -192,6 +208,7 @@ h3 {
     background-color: transparent;
 }
 .bonusSearchBox {
+    display:none;
     position: absolute;
     top: 36px;
     left: 20%;
@@ -205,15 +222,28 @@ h3 {
 .bonusSearchBox input {
     font-size: 110%;
 }
-.garishSearchBox {
+.garishSearchBox .lessGarishSearchBox {
     height: 136px;
     width: 435px;
-    background: transparent url(++resource++edrn.theme.images/garish-search-bg.png) no-repeat scroll top left;
     padding: 10px 0 5px 100px;
     margin-left: 10%;
     margin-right: 10%;
 }
-.garishSearchBox h2 {
+.lessGarishSearchBox {
+    position:relative;
+    margin-left:315px;
+    margin-top:-0.97em;
+    margin-bottom:30px;
+    padding:5px;
+    border:solid 1px #ccc;
+    background:#f3f3f3;
+    text-align:center;
+}
+.garishSearchBox {
+    background: transparent url(++resource++edrn.theme.images/garish-search-bg.png) no-repeat scroll top left;
+}
+.garishSearchBox h2, .lessGarishSearchBox h2 {
+    display:none;
     color: white;
     text-transform: uppercase;
     border-bottom: none;
@@ -226,4 +256,31 @@ h3 {
 }
 .garishSearchBox input {
     font-size: 120%;
+}
+.lessGarishSearchBox label {
+    font-size:150%;
+    color:#333;
+    font-weight:normal;
+}
+.lessGarishSearchBox input[type=text] {
+    width:90%;
+    padding:4px;
+    margin:5px;
+    margin-left:0px;
+    font-size:105%;
+    color:#2a6;
+}
+.lessGarishSearchBox input.searchButton {
+    padding:4px 4px 4px 20px;
+}
+#splashAndSearch {
+    position:relative;
+    margin-top:25px;
+}
+#splashCollage {
+    position:absolute;
+    top:15px;
+    left:0px;
+    width:300px;
+    margin-right:10px;
 }
