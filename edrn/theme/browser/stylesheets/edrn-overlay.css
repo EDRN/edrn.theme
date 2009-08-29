@@ -1,7 +1,8 @@
 /* EDRN Overlay Stylesheet */
-div.clear {
+.clear {
 	clear:both;
 }
+
 div#visual-portal-wrapper {
 	border-left-width:0px;
 	border-right-width:0px;
@@ -52,6 +53,7 @@ div#portal-personaltools-wrapper {
 table.listing {
 	border-width:0px;
 	font-size:100%;
+	width:100%;
 }
 
 table.listing tr.even {
@@ -73,6 +75,52 @@ table.listing th {
 	border-top:0;
 	text-align:left;
 	font-weight:bold;
+}
+
+#region-content {
+	border:solid 1px #ccc;
+}
+
+h1 {
+	font-size:200%;
+	border-bottom:dotted 1px #ccc;	
+	margin-bottom:1.3em;
+	color:#533;
+}
+h1.documentFirstHeading {
+	margin-top:-0.2em;
+}
+h3#welcomeText {
+	margin-top:0px;
+}
+h3.Subheading {
+	font-size:110%;
+}
+
+
+.documentDescription {
+	font-weight:normal;
+	line-height:1.2em;
+	text-align:justify;
+}
+div#content div label {
+	display:block;
+	background-color:#eaf2f2;
+	color:#344;
+	padding:5px;
+	border-bottom:solid 1px #dde;
+	margin-top:8px;
+	margin-bottom:8px;
+	font-weight:normal;
+}
+div#content div span {
+	padding-left:20px;
+	line-height:1.2em;
+	text-align:justify;
+}
+div#content #biomarker-aliases span {
+	padding-left:0px;
+	line-height:auto;
 }
 
 /**
@@ -189,9 +237,5 @@ div#breadcrumbs ul li a, div#portal-breadcrumbs a, #portal-personaltools li a {
         text-decoration:underline;
 	padding-left:2px;
 }
-table.listing {
-	width:100%;
-}
-h1.documentFirstHeading {
-	margin-top:-0.2em;
-}
+
+

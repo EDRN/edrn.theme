@@ -222,14 +222,14 @@ h3 {
 .bonusSearchBox input {
     font-size: 110%;
 }
-.garishSearchBox .lessGarishSearchBox {
+.garishSearchBox .lessGarishSearchBox, .elementSearchBox {
     height: 136px;
     width: 435px;
     padding: 10px 0 5px 100px;
     margin-left: 10%;
     margin-right: 10%;
 }
-.lessGarishSearchBox {
+.lessGarishSearchBox, .elementSearchBox {
     position:relative;
     margin-left:315px;
     margin-top:-0.97em;
@@ -262,7 +262,8 @@ h3 {
     color:#333;
     font-weight:normal;
 }
-.lessGarishSearchBox input[type=text] {
+.lessGarishSearchBox input[type=text],
+.elementSearchBox input[type=text] {
     width:90%;
     padding:4px;
     margin:5px;
@@ -270,12 +271,40 @@ h3 {
     font-size:105%;
     color:#2a6;
 }
-.lessGarishSearchBox input.searchButton {
+.lessGarishSearchBox input.searchButton,
+.elementSearchBox input.searchButton {
     padding:4px 4px 4px 20px;
 }
-#splashAndSearch {
+#content {
+    position:relative;
+}
+#content .elementSearchBox {
+    position:absolute;
+    top:0;
+    right:0;
+    text-align:right;
+    height:auto;
+    border:0;
+    background-color:transparent;
+    margin:0;
+    padding:0;
+}
+#content .elementSearchBox input[type=text] {
+    width:74%;
+}
+
+#content #splashAndSearch {
     position:relative;
     margin-top:25px;
+}
+#content #splashAndSearch {
+    margin-bottom:25px;
+}
+
+#content #splashAndSearch label {
+    background-color:transparent;
+    font-size:1.2em;
+    border-bottom:0px;
 }
 #splashCollage {
     position:absolute;
