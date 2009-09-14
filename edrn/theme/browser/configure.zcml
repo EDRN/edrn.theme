@@ -69,6 +69,13 @@
 	class='.viewlets.EDRNSkinLogo'
     />
     <browser:viewlet
+        name='edrn.default_site_search_box'
+        manager='plone.app.layout.viewlets.interfaces.IPortalHeader'
+        layer='.interfaces.IThemeSpecific'
+        permission='zope2.View'
+        class='.viewlets.EDRNDefaultSiteSearchBox'
+    />
+    <browser:viewlet
         name='edrn.nci_footer'
         manager='plone.app.layout.viewlets.interfaces.IPortalFooter'
         layer='.interfaces.IThemeSpecific'

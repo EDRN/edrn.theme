@@ -3,7 +3,7 @@
 # RESERVED. U.S. Government Sponsorship acknowledged.
 
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
-from plone.app.layout.viewlets.common import ViewletBase, LogoViewlet, SiteActionsViewlet
+from plone.app.layout.viewlets.common import ViewletBase, LogoViewlet, SiteActionsViewlet, SearchBoxViewlet
 from zope.component import getMultiAdapter
 
 class NCIBar(ViewletBase):
@@ -37,4 +37,6 @@ class EDRNFooter(ViewletBase):
         contextState = getMultiAdapter((self.context, self.request), name=u'plone_context_state')
         self.siteActions = contextState.actions().get('site_actions', None)
     
-
+class EDRNDefaultSiteSearchBox(SearchBoxViewlet):
+    '''EDRN Default Site Search Box --upper right hand corner'''
+    index = ViewPageTemplateFile('defaultSiteSearchBox.pt');
