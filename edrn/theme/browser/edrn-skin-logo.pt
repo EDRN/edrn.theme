@@ -13,7 +13,7 @@
 <div id="edrninformatics">
   <div id="edrnlogo"><!-- nci logo --></div>
   <div id="edrn-dna"><!-- edrn-dna graphic --></div>
-  <h2 class="app-title">EDRN Public Portal</h2>
+  <h2 class="app-title" tal:content='view/@@plone_portal_state/portal_title'>EDRN Application</h2>
 
   <div class='bonusSearchBox' tal:define='portalURL context/@@plone_portal_state/portal_url;'>
   <form name='topSearchForm' class='bonusSearchBox' action='#' method='get' tal:attributes='action string:${portalURL}/search;'>
