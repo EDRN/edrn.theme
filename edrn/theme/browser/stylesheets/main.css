@@ -313,3 +313,22 @@ h3 {
     width:300px;
     margin-right:10px;
 }
+
+/* Undo edrn-overlay's prettification which breaks PloneFormGen-generated content: */
+div#content div#pfg-fieldwrapper label {
+	display: inline;
+	background-color: transparent;
+	color: black;
+	padding: 0;
+	border-bottom: none;
+	margin: 0;
+	font-weight: bold;
+}
+div#content div#pfg-fieldwrapper span {
+	padding-left: 0.1em;
+	text-align: left;
+}
+div#content div#pfg-fieldwrapper span.fieldRequired {
+	padding-left: 1em;
+}
+
