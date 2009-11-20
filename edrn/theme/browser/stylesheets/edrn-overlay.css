@@ -239,3 +239,35 @@ div#breadcrumbs ul li a, div#portal-breadcrumbs a, #portal-personaltools li a {
 }
 
 
+/**
+ * PROTOCOL VIEWS 
+**/
+div#protocolMetadataContainer {
+  border:solid 0px #ccc;
+} 
+
+div#protocolLongTextMetadata {
+  width:60%;
+  padding:0px 10px 10px 0px;
+  float:left;
+}
+
+div#content div#protocolLongTextMetadata label {
+  background-color:#fff;
+  font-size:120%;
+  padding-left:0px;
+  padding-bottom:2px;
+  font-weight:bold;
+}
+
+div#protocolShortTextMetadata {
+  padding:25px 0px 10px 0px;
+  width:35%;
+  float:right;
+}
+div#protocolShortTextMetadata div span {
+  font-size:80%;
+  color:#555;
+  padding-left:0px;
+}
+
