@@ -49,6 +49,12 @@ div#portal-personaltools-wrapper {
 #portal-globalnav {
 	/*border-bottom:solid 12px #DEE7EC;*/
 }
+ul#edrn-quicklinks {
+	margin-top:0px;
+}
+ul#edrn-quicklinks li {
+	padding-right:5px;
+}
 
 table.listing {
 	border-width:0px;
@@ -271,3 +277,19 @@ div#protocolShortTextMetadata div span {
   padding-left:0px;
 }
 
+/** 
+ * PERSON VIEWS
+**/
+div.vertical-list label {
+  display:inline;
+  background-color:#fff;
+}
+div#content div.vertical-list span {
+  padding:0px;
+}
+table.contact-info {
+
+}
+table.contact-info th {
+  text-align:left;
+}
