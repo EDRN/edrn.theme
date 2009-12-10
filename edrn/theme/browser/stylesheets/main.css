@@ -36,13 +36,17 @@ h3 {
 
 #portal-globalnav {
 	background-color: rgb(119, 120, 115);
-	font-size: 130%;
+	font-size: 115%;
 	padding-top: 1em;
-	text-align: center;
+	text-align: left;
+	padding-left:224px;
+}
+#portal-globalnav li {
+	margin-bottom:0px;
 }
 #portal-globalnav li a {
 	color: white;
-	padding-top: 0.5em;
+	padding-top: 0.0em;
 }
 #portal-globalnav li.selected a {
 	color: black;
@@ -119,23 +123,24 @@ h3 {
 }
 #portal-searchbox {
     position: absolute;
-    top: 52px;
-    right:155px;
-    width: 200px;
+    display:none;
+    top: 50px;
+    right:0px;
+    padding:0 2px 0 0;
 }
 #portal-searchbox div.LSBox div.searchSection {
     display:none;
 }
 #portal-searchbox div.LSBox input[type=text] {
-    background:#333;
-    color:#ddd;
+    background:#eee;
+    color:#666;
     border:solid 1px #888;
     padding:3px;
     width:150px;
 }
 #portal-searchbox div.LSBox input.searchButton {
     background:auto;
-    background-color:#888;
+    background-color:#eee;
     border:outset 1px #666;
     padding:3px 3px 3px 18px;
 }
@@ -145,6 +150,7 @@ h3 {
     list-style: none;
     padding: 0;
     font-size: 85%;
+    width:200px;
 }
 #edrn-quicklinks li {
     border: 1px solid;
@@ -172,6 +178,13 @@ h3 {
     background-color: #fff;
     color: #f00;
 }
+
+div#region-content.documentContent {
+    width:770px;
+}
+
+
+
 #q-cal           a {background: url(++resource++edrn.theme.images/s-newcal.gif);}
 #q-investigators a {background: url(++resource++edrn.theme.images/s-investigators.gif);}
 #q-committees    a {background: url(++resource++edrn.theme.images/s-committees.gif);}
@@ -183,10 +196,13 @@ h3 {
 #q-sites         a {background: url(++resource++edrn.theme.images/s-sites.gif);}
 
 #portal-column-one .visualPadding {
-    padding: 1em 0 1em 1em;
+    padding: 1.2em 0 1em 1em;
 }
 #portal-column-two .visualPadding {
-    padding: 1em 0.5em 1em 0;
+    padding: 1.4em 0.5em 1em 0;
+}
+#portal-column-content {
+    padding: 1.3em 1em 0;
 }
 .edrnQuickLinks {
     border-bottom: none;
@@ -222,7 +238,7 @@ h3 {
 .bonusSearchBox input {
     font-size: 110%;
 }
-.garishSearchBox .lessGarishSearchBox, .elementSearchBox {
+.lessGarishSearchBox, .elementSearchBox {
     height: 136px;
     width: 435px;
     padding: 10px 0 5px 100px;
@@ -232,17 +248,31 @@ h3 {
 .lessGarishSearchBox, .elementSearchBox {
     position:relative;
     margin-left:315px;
-    margin-top:-0.97em;
+    margin-top:0em;
     margin-bottom:30px;
     padding:5px;
-    border:solid 1px #ccc;
     background:#f3f3f3;
     text-align:center;
 }
-.garishSearchBox {
-    background: transparent url(++resource++edrn.theme.images/garish-search-bg.png) no-repeat scroll top left;
+
+.lessGarishSearchBox {
+    position:relative;
+    float:right;
+    right:0px;
+    top:0px;	
+    width:340px;
+    height:95px;
+    border:solid 1px #ccc;
+    margin:0px;
+    border-left:none;
+    border-right:none;
 }
-.garishSearchBox h2, .lessGarishSearchBox h2 {
+
+.lessGarishSearchBox input.searchButton {
+    padding:2px;
+}
+
+.lessGarishSearchBox h2 {
     display:none;
     color: white;
     text-transform: uppercase;
@@ -250,13 +280,7 @@ h3 {
     font-size: 90%;
     margin-top: 0.1em;
 }
-.garishSearchBox label {
-    font-size: 200%;
-    color: yellow;
-}
-.garishSearchBox input {
-    font-size: 120%;
-}
+
 .lessGarishSearchBox label {
     font-size:150%;
     color:#333;
@@ -265,7 +289,7 @@ h3 {
 .lessGarishSearchBox input[type=text],
 .elementSearchBox input[type=text] {
     width:90%;
-    padding:4px;
+    padding:3px;
     margin:5px;
     margin-left:0px;
     font-size:105%;
@@ -273,7 +297,7 @@ h3 {
 }
 .lessGarishSearchBox input.searchButton,
 .elementSearchBox input.searchButton {
-    padding:4px 4px 4px 20px;
+    padding:3px 3px 3px 20px;
 }
 #content {
     position:relative;
@@ -290,28 +314,22 @@ h3 {
     padding:0;
 }
 #content .elementSearchBox input[type=text] {
-    width:74%;
+    width:50%;
 }
 
-#content #splashAndSearch {
-    position:relative;
-    margin-top:25px;
-}
-#content #splashAndSearch {
-    margin-bottom:25px;
-}
 
 #content #splashAndSearch label {
     background-color:transparent;
-    font-size:1.2em;
+    font-size:1.1em;
     border-bottom:0px;
+    color:#932;
+    margin-bottom:0px;
+    margin-top:0px;
 }
 #splashCollage {
-    position:absolute;
-    top:15px;
-    left:0px;
-    width:300px;
-    margin-right:10px;
+    position:relative;
+    margin-top:0px;
+    margin-bottom:10px;
 }
 
 /* Undo edrn-overlay's prettification which breaks PloneFormGen-generated content: */
