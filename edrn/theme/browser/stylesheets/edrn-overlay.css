@@ -399,3 +399,12 @@ form#livesearch1 input[type=text] {
 form#livesearch1 div.LSBox {
   width:100%;
 }
+
+/**
+ * IMAGES
+ */
+div#parent-fieldname-text img {
+  border:solid 1px #ccc;
+  padding:5px;
+  margin-right:8px;
+}
