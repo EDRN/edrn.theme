@@ -114,6 +114,12 @@ table.listing th {
 	text-align:left;
 	font-weight:bold;
 }
+table.listing.sitesByType {
+
+}
+table.listing.sitesByType td.piLink {
+	width:25%;
+}
 
 #region-content {
 	border:solid 0px #ccc;
