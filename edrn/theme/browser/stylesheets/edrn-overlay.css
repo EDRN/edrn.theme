@@ -31,7 +31,7 @@ ul#portal-globalnav {
 	position:relative;
 	padding-top:65px;
 	padding-bottom:3px;
-	border-bottom:solid 1px #555;
+	border-bottom:0;
 	background:url(++resource++edrn.theme.images/edrn_dna-bigger.jpg) scroll right top no-repeat;
 	background-color:transparent;
 	font-family:arial, sans-serif;	
