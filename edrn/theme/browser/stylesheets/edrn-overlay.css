@@ -416,3 +416,40 @@ div#parent-fieldname-text img {
   padding:5px;
   margin-right:8px;
 }
+
+/**
+ * SITES
+ */ 
+div#content div#site-abbreviation {
+  margin-top:-30px;
+  margin-left:-2px;
+}
+div#content div#site-abbreviation label {
+  display:inline;
+  background-color:transparent;
+  border-bottom:0px;
+}
+div#content div#site-abbreviation span {
+  padding-left:0px;
+}
+div#site-column-container {
+  position:relative;
+  margin:0px;
+  padding:0px;
+}
+div#site-main-column {
+  padding:0px;
+  float:left;
+  width:65%;
+  margin-top:10px;
+}
+div#content div#site-main-column span {
+  padding-left:0px;
+}
+div#site-right-column {
+  padding:0px;
+  float:right;
+  width:30%;
+  margin-top:10px;
+  font-size:90%;
+}
