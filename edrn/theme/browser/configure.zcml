@@ -24,6 +24,13 @@
         layer='.interfaces.IThemeSpecific'
     />
 
+    <!-- Resource directory for javascripts -->
+    <browser:resourceDirectory
+	name='edrn.theme.javascripts'
+	directory='javascripts'
+	layer='.interfaces.IThemeSpecific'
+    />
+
     <!-- Viewlet managers -->
     <browser:viewletManager
         name='edrn.nci_topmost'
