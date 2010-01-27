@@ -1,6 +1,14 @@
-===========
- Changelog
-===========
+Changelog
+=========
+
+What follows is a history of changes from release to release.
+
+0.0.2 - Modernization and Metadata
+----------------------------------
+
+* Copious work by Andrew Hart to further modernize the look and feel for EDRN.
+* Updated project metadata.
+
 
 0.0.1 - FCS
 -----------
@@ -12,5 +20,6 @@ progress.
 0.0.0 - Unreleased
 ------------------
 
-* Initial release
+Initial release.
+
 

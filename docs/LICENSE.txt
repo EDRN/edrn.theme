@@ -1,8 +1,7 @@
-===========
- Copyright
-===========
+Copyright
+=========
 
-Copyright © 2008 by the California Institute of Technology.  ALL RIGHTS
+Copyright 2008-2010 by the California Institute of Technology.  ALL RIGHTS
 RESERVED.
 
 The Software is owned by Caltech/JPL and is protected by United States
