@@ -3,6 +3,15 @@ Changelog
 
 What follows is a history of changes from release to release.
 
+0.0.3
+-----
+
+The following issues have been addressed in this release:
+
+* http://oodt.jpl.nasa.gov/jira/browse/CA-466 - Change order of links on the
+  left side menu of the portal
+
+
 0.0.2 - Modernization and Metadata
 ----------------------------------
 
