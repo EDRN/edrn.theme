@@ -183,7 +183,6 @@ div#region-content.documentContent {
     width:770px;
 }
 
-#q-cal           a {background: url(++resource++edrn.theme.images/s-newcal.gif);}
 #q-committees    a {background: url(++resource++edrn.theme.images/s-committees.gif);}
 #q-fund          a {background: url(++resource++edrn.theme.images/s-newfund.gif);}
 #q-book          a {background: url(++resource++edrn.theme.images/s-newbook.gif);}
@@ -192,6 +191,7 @@ div#region-content.documentContent {
 #q-advocates     a {background: url(++resource++edrn.theme.images/s-advocates.gif);}
 #q-sites         a {background: url(++resource++edrn.theme.images/s-sites.gif);}
 #q-specimens     a {background: url(++resource++edrn.theme.images/s-newcbrg.gif);}
+#q-standards     a {background: url(++resource++edrn.theme.images/s-standards.gif);}
 
 #portal-column-one .visualPadding {
     padding: 1.2em 0 1em 1em;
