@@ -3,8 +3,8 @@ Changelog
 
 What follows is a history of changes from release to release.
 
-0.0.3
------
+0.0.3 - Quicklinks Portlet Look and Feel
+----------------------------------------
 
 The following issues have been addressed in this release:
 
