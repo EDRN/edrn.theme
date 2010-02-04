@@ -4,13 +4,13 @@
 }
 
 td#portal-column-one {
-	width:200px;
+	width:160px;
 }
 td#portal-column-content {
-	width:800px;
+	width:700px;
 }
 td#portal-column-two {
-	width:auto;
+	width:100px;
 	padding-top:0px;
 }
 
@@ -153,8 +153,7 @@ h3.homepageTitle {
 
 .documentDescription {
 	font-weight:normal;
-	line-height:1.2em;
-	text-align:justify;
+	line-height:1.5em;
 }
 
 
@@ -170,7 +169,7 @@ div#content div label {
 }
 div#content div span {
 	padding-left:20px;
-	line-height:1.2em;
+	line-height:1.5em;
 	text-align:justify;
 }
 div#content #biomarker-aliases span {
@@ -297,6 +296,58 @@ div#breadcrumbs ul li a, div#portal-breadcrumbs a, #portal-personaltools li a {
         font-weight:normal;
         text-decoration:underline;
 	padding-left:2px;
+}
+
+/**
+ * PORTLET SEARCH
+**/
+div.portletWrapper {
+    position:relative;
+}
+dl.portlet.portletSearch {
+    position:absolute;
+    top:-15px;
+    left:-235px;
+    
+}
+
+/**
+ * QUICKLINKS (Left side links)
+**/
+#edrn-quicklinks {
+    margin: 10px 0 0 0;
+    list-style: none;
+    padding: 0;
+    font-size: 85%;
+}
+#edrn-quicklinks li {
+    border: 1px solid;
+    border-color: #ccc #bbb #b6b6b6 #ccc;
+    margin: 0 0 3px 0;
+    background: #f1f1f1 url(++resource++edrn.theme.images/s-bg.gif) top left repeat-x;
+}
+div.LSResult {
+    padding:0px;
+}
+#edrn-quicklinks li a {
+    display: block;
+    padding: 13px 0 13px 60px;
+    text-decoration: none;
+}
+#edrn-quicklinks li a, #edrn-quicklinks li a:link, #edrn-quicklinks li a:visited {
+    background-position: 4px 50%;
+    background-repeat: no-repeat;
+    color: #400;
+}
+#edrn-quicklinks li a:hover, #edrn-quicklinks li a:active {
+    background-position: -462px 50%;
+    background-repeat: no-repeat;
+    color: #004;
+    text-decoration: none;
+}
+#edrn-quicklinks li a:hover {
+    background-color: #fff;
+    color: #f00;
 }
 
 
