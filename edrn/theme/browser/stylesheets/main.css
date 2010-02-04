@@ -39,7 +39,7 @@ h3 {
 	font-size: 115%;
 	padding-top: 1em;
 	text-align: left;
-	padding-left:224px;
+	padding-left:184px;
 }
 #portal-globalnav li {
 	margin-bottom:0px;
@@ -145,43 +145,7 @@ h3 {
     padding:3px 3px 3px 18px;
 }
 
-#edrn-quicklinks {
-    margin: 10px 0 0 0;
-    list-style: none;
-    padding: 0;
-    font-size: 85%;
-    width:200px;
-}
-#edrn-quicklinks li {
-    border: 1px solid;
-    border-color: #ccc #bbb #b6b6b6 #ccc;
-    margin: 0 0 3px 0;
-    background: #f1f1f1 url(++resource++edrn.theme.images/s-bg.gif) top left repeat-x;
-}
-#edrn-quicklinks li a {
-    display: block;
-    padding: 13px 0 13px 60px;
-    text-decoration: none;
-}
-#edrn-quicklinks li a, #edrn-quicklinks li a:link, #edrn-quicklinks li a:visited {
-    background-position: 4px 50%;
-    background-repeat: no-repeat;
-    color: #400;
-}
-#edrn-quicklinks li a:hover, #edrn-quicklinks li a:active {
-    background-position: -462px 50%;
-    background-repeat: no-repeat;
-    color: #004;
-    text-decoration: none;
-}
-#edrn-quicklinks li a:hover {
-    background-color: #fff;
-    color: #f00;
-}
 
-div#region-content.documentContent {
-    width:770px;
-}
 
 #q-committees    a {background: url(++resource++edrn.theme.images/s-committees.gif);}
 #q-fund          a {background: url(++resource++edrn.theme.images/s-newfund.gif);}
