@@ -75,6 +75,7 @@ div#portal-personaltools-wrapper {
 	position:absolute;
 	top: 90px;
 	right:0px;
+	width:500px;
 }
 #portal-personaltools {
 	background-color:transparent;
