@@ -3,6 +3,13 @@ Changelog
 
 What follows is a history of changes from release to release.
 
+0.0.4
+-----
+
+* http://oodt.jpl.nasa.gov/jira/browse/CA-477 - Portal requires screen width
+  of 1280 to display all content
+
+
 0.0.3 - Quicklinks Portlet Look and Feel
 ----------------------------------------
 
