@@ -90,6 +90,9 @@ ul#edrn-quicklinks {
 ul#edrn-quicklinks li {
 	padding-right:5px;
 }
+div.searchResultsContainer {
+	width:780px;
+}
 
 table.listing {
 	border-width:0px;
