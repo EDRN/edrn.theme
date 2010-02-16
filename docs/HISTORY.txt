@@ -3,11 +3,13 @@ Changelog
 
 What follows is a history of changes from release to release.
 
-0.0.4
------
+0.0.4 - Small Screens Welcome
+-----------------------------
 
 * http://oodt.jpl.nasa.gov/jira/browse/CA-477 - Portal requires screen width
   of 1280 to display all content
+* http://oodt.jpl.nasa.gov/jira/browse/CA-497 - Search results appearing as
+  separated from search result facet links
 
 
 0.0.3 - Quicklinks Portlet Look and Feel
