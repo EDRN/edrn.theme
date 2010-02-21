@@ -2,8 +2,15 @@
   <strong>Early Detection Research Network</strong><br/>
   <span style="font-size:85%;color:#bbb">Division of Cancer Prevention</span>
 </div>
+<div id="edrn-dna"></div>
+<!--[if lt IE 8]>
+<style type="text/css">
+    ul#portal-globalnav {
+	margin-top:2px;
+    }
+</style>
+<![endif]-->
 <!--
-
 <div id='edrn-skin-logo' i18n:domain='edrn.theme' tal:define='home view/navigation_root_url'>
     <a accesskey='1'
         tal:attributes='href home'>

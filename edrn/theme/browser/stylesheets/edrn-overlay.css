@@ -3,14 +3,18 @@
 	clear:both;
 }
 
+body {
+	min-width:800px;
+}
+
 td#portal-column-one {
-	width:160px;
+	width:180px;
 }
 td#portal-column-content {
-	width:700px;
+/*	width:700px; */
 }
 td#portal-column-two {
-	width:100px;
+	width:180px;
 	padding-top:0px;
 }
 
@@ -20,25 +24,26 @@ div#visual-portal-wrapper {
 }
 div#portal-top {
 	height:87px;
+	background:url(++resource++edrn.theme.images/blackfade-syncd.jpg) scroll -2px 1px repeat-x;
 	background-color:#888;
 	border-bottom:solid 1px #333;
 }
+
 div#portal-header {
 	position:relative;
 	background:url(++resource++edrn.theme.images/blackfade-syncd.jpg) scroll -2px 1px repeat-x;
 }
 ul#portal-globalnav {
-	position:relative;
+	position:absolute;
 	padding-top:65px;
 	padding-bottom:3px;
 	border-bottom:0;
-	background:url(++resource++edrn.theme.images/edrn_dna-bigger.jpg) scroll right top no-repeat;
 	background-color:transparent;
 	font-family:arial, sans-serif;	
 	font-size:15px;
 }
 ul#portal-globalnav li {
-	
+
 }
 ul#portal-globalnav li a {
 	border-color:#727272;
@@ -225,7 +230,7 @@ div#edrn-dna {
         right:0px;
         height:67px;
         width:290px;
-        background:url(++resource++edrn.theme.images/edrn_dna-bigger.jpg) scroll left top no-repeat;
+	background:url(++resource++edrn.theme.images/edrn_dna-bigger.jpg) scroll right top no-repeat;
 }
 
 /**
@@ -413,7 +418,19 @@ div#content {
 }
 div#content div.colLeft {
   float:left;
-  margin-right:370px;
+  width:350px;
+}
+table#homepage-content-container {
+
+}
+#homepage-content-container tr td {
+  vertical-align:top;
+}
+#homepage-content-container tr td.left {
+  
+}
+#homepage-content-container tr td.right {
+  text-align:right;
 }
 
 div#content div.colLeft h2 {
