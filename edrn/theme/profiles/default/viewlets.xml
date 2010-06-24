@@ -34,7 +34,6 @@
   <viewlet name="plone.searchbox"/>
   <viewlet name="edrn.edrn_actions"/>
   <viewlet name="edrn.logo"/>
-  <viewlet name="edrn.skin_logo"/>
   <viewlet name="plone.global_sections"/>
   <viewlet name="plone.logo"/>
   <viewlet name="plone.site_actions"/>
@@ -50,21 +49,25 @@
   <viewlet name="plone.contentviews"/>
   <viewlet name="plone.contentactions"/>
  </order>
- <hidden manager="plone.portaltop" skinname="EDRN Theme">
-  <viewlet name="plone.path_bar"/>
- </hidden>
- <hidden manager="plone.portalfooter" skinname="EDRN Theme">
-  <viewlet name="plone.footer"/>
- </hidden>
+ <hidden manager="edrn.nci_topmost" skinname="EDRN Theme"/>
+ <hidden manager="plone.belowcontenttitle" skinname="EDRN Theme"/>
  <hidden manager="plone.portalheader" skinname="EDRN Theme">
   <viewlet name="plone.site_actions"/>
   <viewlet name="plone.logo"/>
   <viewlet name="plone.skip_links"/>
-  <viewlet name="edrn.logo"/>
+  <viewlet name="plone.searchbox"/>
+  <viewlet name="edrn.skin_logo"/>
   <viewlet name="edrn.edrn_actions"/>
+  <viewlet name="edrn.default_site_search_box"/>
  </hidden>
- <hidden manager="edrn.nci_topmost" skinname="EDRN Theme">
-  <viewlet name="edrn.nci_bar"/>
-  <viewlet name="edrn.skip_links"/>
+ <hidden manager="plone.belowcontentbody" skinname="EDRN Theme"/>
+ <hidden manager="plone.portalfooter" skinname="EDRN Theme">
+  <viewlet name="plone.footer"/>
  </hidden>
+ <hidden manager="plone.belowcontent" skinname="EDRN Theme"/>
+ <hidden manager="plone.portaltop" skinname="EDRN Theme">
+  <viewlet name="plone.path_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+ </hidden>
+ <hidden manager="plone.contentviews" skinname="EDRN Theme"/>
 </object>

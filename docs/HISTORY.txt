@@ -3,6 +3,14 @@ Changelog
 
 What follows is a history of changes from release to release.
 
+0.0.5 - The Eleventh Hour
+-------------------------
+
+After viewing the new look-and-feel for EDRN across a variety of applications,
+management suddenly realizes they don't like it.  This release attempts to
+satisfy them.  See https://oodt.jpl.nasa.gov/jira/browse/CA-599 for more.
+
+
 0.0.4 - Small Screens Welcome
 -----------------------------
 

@@ -1,8 +1,8 @@
-<div id="edrnlogo" tal:define='home view/navigation_root_url'>
+<!-- <div id="edrnlogo" tal:define='home view/navigation_root_url'>
   <strong>Early Detection Research Network</strong><br/>
   <span style="font-size:85%;color:#bbb">Division of Cancer Prevention</span>
 </div>
-<div id="edrn-dna"></div>
+<div id="edrn-dna"></div> -->
 <!--[if lt IE 8]>
 <style type="text/css">
     ul#portal-globalnav {

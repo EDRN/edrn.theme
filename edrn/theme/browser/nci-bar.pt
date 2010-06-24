@@ -8,21 +8,21 @@
         <map name='ncibanner'>
             <area
                 shape='rect'
-                coords='13,5,301,34'
+                coords='0,3,279,34'
                 href='http://www.cancer.gov/'
                 alt='National Cancer Institute'
                 title='National Cancer Institute'
             />
             <area
                 shape='rect'
-                coords='494,13,667,31'
+                coords='711,16,879,26'
                 href='http://www.nih.gov/'
                 alt='U.S. National Institutes of Health'
                 title='U.S. National Institutes of Health'
             />
             <area 
                 shape='rect'
-                coords='670,13,764,31'
+                coords='888,16,973,26'
                 href='http://www.cancer.gov/'
                 alt='www.cancer.gov'
                 title='www.cancer.gov'

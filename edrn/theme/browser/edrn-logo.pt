@@ -1,8 +1,11 @@
 <div id='edrn-logo' i18n:domain='edrn.theme' tal:define='home view/navigation_root_url'>
-    <a accesskey='1'
-        tal:attributes='href home'>
-        <img src='logo.jpg' alt='Home' i18n:attributes='alt'
-            tal:attributes='src string:${home}/++resource++edrn.theme.images/logo.gif'
-        />
-    </a>
+	<div id='dcplogo'>
+		<a href='http://prevention.cancer.gov/'>
+			<h2 class='dcplogo'>Division of Cancer Prevention</h2>
+		</a>
+	</div>
+	<h1 i18n:translate='early_detection_research_network'>Early Detection Research Network</h1>
+	<h2 i18n:translate='edrn_motto'>
+		Research and development of biomarkers and technologies for the clinical application of early cancer detection strategies
+	</h2>
 </div>

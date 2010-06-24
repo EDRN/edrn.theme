@@ -2,7 +2,6 @@
 
 #nci-bar {
 	text-align: center;
-	margin-bottom: -1em;
 }
 #nci-bar div {
 	background-color: rgb(169, 1, 1);
@@ -26,20 +25,55 @@ h3 {
 }
 
 #edrn-logo {
-	background: rgb(254, 252, 211) url(++resource++edrn.theme.images/abstract-bg.jpg) no-repeat scroll top left;
+	height: 68px;
+	width: 974px;
+	margin: 0px auto;
+}
+div#edrn-logo h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 25px;
+    line-height: 16px;
+    text-align: left;
+    width: 974px;
+    font-size: 24px;
+    font-weight: normal;
+	border-bottom: none;
+	color: black;
+}
+div#edrn-logo h2 {
+    margin: -25px auto 16px auto;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+    color: #222;
+	border-bottom: none;
+}
+div#dcplogo {
+	width: 974px;
+	margin: 25px auto 0 auto;
+}
+h2.dcplogo {
+    border-bottom: 0 none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-indent: -9999px;
+    background: transparent url(++resource++edrn.theme.images/l-dcp.gif) no-repeat scroll 0 0;
+    float: right;
+    height: 23px;
+    margin: -65px -12px 16px;
+    width: 164px;
 }
 
 #visual-portal-wrapper {
-	border-left: 3em solid rgb(233, 233, 232);
-	border-right: 3em solid rgb(233, 233, 232);
 }
 
 #portal-globalnav {
-	background-color: rgb(119, 120, 115);
+	background-color: white;
 	font-size: 115%;
 	padding-top: 1em;
 	text-align: left;
-	padding-left:120px;
 }
 #portal-globalnav li {
 	margin-bottom:0px;
@@ -75,52 +109,6 @@ h3 {
 	display: inline !important;
 }
 
-/* Generic boxes of attributes */
-.attributebox {
-    background: #666666 url(++resource++edrn.theme.images/attribute-gradient.gif) repeat-x top left;
-    float: left;
-    width: 14em;
-    color: white;
-    margin: 0.5em 1em 0.5em 1em;
-    font-size: 80%;
-}
-.attributebox h3 {
-    text-transform: uppercase;
-    color: white;
-    font-size: 100%;
-    padding-left: 0.5em;
-    border-bottom: 2px solid white;
-}
-.attributebox table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    border: none;
-}
-.attributebox td, .attributebox th {
-    border-bottom: 1px solid white;
-    text-align: left;
-    padding: 0.5em;
-}
-.attributebox-top div {
-    background: url(++resource++edrn.theme.images/attribute-top-left.gif) no-repeat top left;
-}
-.attributebox-top {
-    background: transparent url(++resource++edrn.theme.images/attribute-top-right.gif) no-repeat top right;
-}
-.attributebox-bottom div {
-    background: url(++resource++edrn.theme.images/attribute-bottom-left.gif) no-repeat bottom left;
-}
-.attributebox-bottom {
-    background: transparent url(++resource++edrn.theme.images/attribute-bottom-right.gif) no-repeat bottom right;
-}
-.attributebox-top div, .attributebox-top, .attributebox-bottom div, .attributebox-bottom {
-    width: 100%;
-    height: 10px;
-    font-size: 1px;
-}
-.attributebox-content {
-    margin: 0 10px;
-}
 #portal-searchbox {
     position: absolute;
     display:none;
@@ -144,8 +132,6 @@ h3 {
     border:outset 1px #666;
     padding:3px 3px 3px 18px;
 }
-
-
 
 #q-committees    a {background: url(++resource++edrn.theme.images/s-committees.gif);}
 #q-fund          a {background: url(++resource++edrn.theme.images/s-newfund.gif);}
