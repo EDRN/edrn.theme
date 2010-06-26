@@ -4,11 +4,11 @@
 	text-align: center;
 }
 #nci-bar div {
-	background-color: rgb(196, 1, 1);
+	background-color: #a90101;
 	height: 43px;
 	left: 0px;
 	margin: 0 0 0 0;
-	padding: 0 0 0 0;
+	padding: 0 0 0 32px;
 }
 
 h1 {
@@ -28,25 +28,38 @@ h3 {
 	height: 68px;
 	width: 974px;
 	margin: 0px auto;
+	padding: 0 0 0 32px;
+}
+img#edrnlogo-logo {
+	width: 64px;
+	margin-top: -20px;
+	padding: 3px;
+	margin-right: 5px;
+	vertical-align: top;
+	float: left;
+	border: solid 0px #955;
 }
 div#edrn-logo h1 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-top: 25px;
+	padding-bottom: 15px;
+	margin-top: 15px;
     line-height: 16px;
     text-align: left;
     width: 974px;
-    font-size: 24px;
-    font-weight: normal;
-	border-bottom: none;
+    font-size: 31px;
+    font-weight: bold;
+	border: none;
 	color: black;
 }
 div#edrn-logo h2 {
-    margin: -25px auto 16px auto;
+	padding: 0 0 0 78px;
+    margin: -45px auto 16px auto;
     font-size: 12px;
     font-weight: normal;
     font-style: italic;
     color: #222;
-	border-bottom: none;
+	border: none;
 }
 div#dcplogo {
 	width: 974px;
@@ -67,6 +80,8 @@ h2.dcplogo {
 }
 
 #visual-portal-wrapper {
+	width: 976px;
+	padding: 0 auto;
 }
 
 #portal-globalnav {
