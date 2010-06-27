@@ -8,7 +8,8 @@ What follows is a history of changes from release to release.
 
 After viewing the new look-and-feel for EDRN across a variety of applications,
 management suddenly realizes they don't like it.  This release attempts to
-satisfy them.  See https://oodt.jpl.nasa.gov/jira/browse/CA-599 for more.
+satisfy them.  See https://oodt.jpl.nasa.gov/jira/browse/CA-599 as well as
+https://oodt.jpl.nasa.gov/jira/browse/CA-600 for more details.
 
 
 0.0.5 - Unknown release
