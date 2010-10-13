@@ -3,6 +3,14 @@ Changelog
 
 What follows is a history of changes from release to release.
 
+1.0.0 - Fantasizing on Facetizing
+---------------------------------
+
+After being in production for several months we've decided to call it version
+1 at last.  However, this release also adds styling for future faceted
+navigation features.
+
+
 0.0.6 - The Eleventh Hour
 -------------------------
 

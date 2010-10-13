@@ -358,3 +358,16 @@ div#content div#pfg-fieldwrapper span.fieldRequired {
 .attributebox-content {
     margin: 0 10px;
 }
+
+div#content .widget-fieldset ul li label {
+	display: inline;
+	background-color: transparent;
+	color: black;
+	padding: 0 0 0 0.3em;
+	border-bottom: none;
+	margin: 0;
+	font-weight: normal;
+}
+div#content .widget-fieldset ul li input {
+    margin: 0.2em 0 0 0;
+}

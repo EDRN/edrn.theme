@@ -9,7 +9,7 @@ import os.path
 # ------------
 
 _name        = 'edrn.theme'
-_version     = '0.0.7'
+_version     = '1.0.0'
 _description = 'Look and feel for websites of the Early Detection Research Network (EDRN).'
 _url         = 'http://cancer.jpl.nasa.gov/products/edrn-theme'
 _downloadURL = 'http://oodt.jpl.nasa.gov/dist/edrn-theme'
