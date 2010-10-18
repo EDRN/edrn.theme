@@ -10,6 +10,13 @@ After being in production for several months we've decided to call it version
 1 at last.  However, this release also adds styling for future faceted
 navigation features.
 
+It also addresses the following issues:
+
+* CA-642 - Create a new member page
+
+You can learn more about this issue by visiting the Informatics Center's issue
+tracker at https://oodt.jpl.nasa.gov/jira/browse/CA.
+
 
 0.0.6 - The Eleventh Hour
 -------------------------
