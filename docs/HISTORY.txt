@@ -13,6 +13,7 @@ navigation features.
 It also addresses the following issues:
 
 * CA-642 - Create a new member page
+* CA-666 - Sites Page clean up
 
 You can learn more about this issue by visiting the Informatics Center's issue
 tracker at https://oodt.jpl.nasa.gov/jira/browse/CA.
