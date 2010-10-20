@@ -8,7 +8,8 @@ What follows is a history of changes from release to release.
 
 After being in production for several months we've decided to call it version
 1 at last.  However, this release also adds styling for future faceted
-navigation features.
+navigation features.  It also adds styling and imagery for the Members List
+button for the QuickLinks portlet.
 
 It also addresses the following issues:
 
