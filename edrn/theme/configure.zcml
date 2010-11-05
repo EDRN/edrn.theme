@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!--
-Copyright 2008 California Institute of Technology. ALL RIGHTS
+Copyright 2008-2010 California Institute of Technology. ALL RIGHTS
 RESERVED. U.S. Government Sponsorship acknowledged.
 -->
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:five="http://namespaces.zope.org/five"
     xmlns:cmf="http://namespaces.zope.org/cmf"
+    xmlns:zcml='http://namespaces.zope.org/zcml'
     i18n_domain="edrn.theme">
 
    <five:registerPackage package="." initialize=".initialize" />
@@ -15,5 +16,8 @@ RESERVED. U.S. Government Sponsorship acknowledged.
 
    <include file="skins.zcml" />
    <include file="profiles.zcml" />
-
+    <include
+        zcml:condition='installed Products.GenericSetup.upgrade'
+        file='upgrades.zcml'
+    />
 </configure>

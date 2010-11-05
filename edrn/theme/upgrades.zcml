@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+Copyright 2010 California Institute of Technology. ALL RIGHTS
+RESERVED. U.S. Government Sponsorship acknowledged.
+-->
+<configure
+    xmlns='http://namespaces.zope.org/zope'
+    xmlns:genericsetup='http://namespaces.zope.org/genericsetup'>
+    <genericsetup:upgradeStep
+        source='0'
+        destination='1'
+        title='Null Upgrade Step'
+        description='The EDRN theme requires no custom upgrade steps to go from profile 0 to profile 1.'
+        profile='edrn.theme:default'
+        handler='edrn.theme.upgrades.nullUpgradeStep'
+        sortkey='1'
+    />
+</configure>

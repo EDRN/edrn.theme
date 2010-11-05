@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!--
-Copyright 2008 California Institute of Technology. ALL RIGHTS
+Copyright 2008-2010 California Institute of Technology. ALL RIGHTS
 RESERVED. U.S. Government Sponsorship acknowledged.
 -->
 <metadata>
-    <version>0</version>
+    <version>1</version>
+    <description>The EDRN Theme provides the look and feel for websites for the Early Detection Research Network</description>
 </metadata>
