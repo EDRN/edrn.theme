@@ -23,6 +23,7 @@
  </order>
  <order manager="plone.portalfooter" skinname="EDRN Theme">
   <viewlet name="edrn.nci_footer"/>
+  <viewlet name='edrn.colophon' />
   <viewlet name="plone.colophon"/>
   <viewlet name="plone.analytics"/>
  </order>
@@ -63,6 +64,7 @@
  <hidden manager="plone.belowcontentbody" skinname="EDRN Theme"/>
  <hidden manager="plone.portalfooter" skinname="EDRN Theme">
   <viewlet name="plone.footer"/>
+  <viewlet name='plone.colophon' />
  </hidden>
  <hidden manager="plone.belowcontent" skinname="EDRN Theme"/>
  <hidden manager="plone.portaltop" skinname="EDRN Theme">

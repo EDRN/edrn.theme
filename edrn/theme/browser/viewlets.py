@@ -40,3 +40,7 @@ class EDRNFooter(ViewletBase):
 class EDRNDefaultSiteSearchBox(SearchBoxViewlet):
     '''EDRN Default Site Search Box --upper right hand corner'''
     index = ViewPageTemplateFile('defaultSiteSearchBox.pt');
+
+class EDRNColophon(ViewletBase):
+    '''EDRN colophon gives the "How this site was made" type info'''
+    index = ViewPageTemplateFile('edrn-colophon.pt')

@@ -1,7 +1,18 @@
 Changelog
 =========
 
-What follows is a history of changes from release to release.
+What follows is a history of changes from release to release.  For issue IDs
+mentioned below, you can learn more about them by visiting the issue tracker
+at https://oodt.jpl.nasa.gov/jira/browse/CA.
+
+
+1.0.1 - Anal Retentiveness
+--------------------------
+
+The only issue addressed by this release is:
+
+* CA-529 - Remove "Valid XHTML" and "Valid CSS" links
+
 
 1.0.0 - Fantasizing on Facetizing
 ---------------------------------

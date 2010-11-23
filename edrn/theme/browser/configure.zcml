@@ -96,5 +96,12 @@
         class='plone.app.layout.viewlets.common.PathBarViewlet'
         permission='zope2.View'
     />
+    <browser:viewlet
+        name='edrn.colophon'
+        manager='plone.app.layout.viewlets.interfaces.IPortalFooter'
+        layer='.interfaces.IThemeSpecific'
+        permission='zope2.View'
+        class='.viewlets.EDRNColophon'
+    />
 
 </configure>

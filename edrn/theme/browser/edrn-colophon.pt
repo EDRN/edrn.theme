@@ -1,0 +1,44 @@
+  <div id="portal-colophon" metal:define-macro="colophon" i18n:domain="plone">
+      <tal:comment replace="nothing">
+
+        Please keep the Plone Powered link (or the plone_powered.gif image) if you use
+        Plone on your site. It's a nice token of gratitude, and we appreciate your
+        help in promoting the Plone brand.
+
+        Plone is powered by the combined forces of Zope and CMF, two absolutely
+        great systems made by Zope Corporation (http://zope.com) and they in turn
+        are based on the best programming language in the world - Python
+        (http://www.python.org). We owe these guys a lot, thanks for making Plone
+        possible!
+
+      </tal:comment>
+
+      <metal:slot define-slot="colophon" />
+
+      <div class="colophonWrapper">
+      <ul>
+        <li>
+          <a href="http://plone.org"
+             title="This site was built using Plone CMS, the Open Source Content Management System. Click for more information."
+             i18n:attributes="title title_built_with_plone;"
+             i18n:translate="label_powered_by_plone">
+            Powered by Plone</a>
+        </li>
+        <li>
+          <a href="http://www.section508.gov"
+             title="This site conforms to the US Government Section 508 Accessibility Guidelines."
+             i18n:attributes="title title_section_508;"
+             i18n:translate="label_section_508">
+            Section 508</a>
+        </li>
+        <li>
+          <a href="http://www.w3.org/WAI/WCAG1AA-Conformance"
+             title="This site conforms to the W3C-WAI Web Content Accessibility Guidelines."
+             i18n:attributes="title title_wcag_conformance;"
+             i18n:translate="label_wcag">
+            WCAG</a>
+        </li>
+      </ul>
+      </div>
+
+    </div>
