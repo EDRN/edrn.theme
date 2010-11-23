@@ -60,16 +60,18 @@ class TestSetup(EDRNThemeTestCase):
     def testCustomPortalFooter(self):
         viewlets = list(self.storage.getOrder(u'plone.portalfooter', _themeName))
         self.assertEquals(u'edrn.nci_footer', viewlets[0], 'EDRN footer not first in footer.')
-        hidden = self.storage.getOrder(u'plone.portalfooter', _themeName)
-        self.failUnless(u'plone.footer', 'Plone footer not hidden in footer viewlet.')
+        self.assertEquals(u'edrn.colophon', viewlets[1], 'EDRN colophon not second in footer.')
+        hidden = self.storage.getHidden(u'plone.portalfooter', _themeName)
+        self.failUnless(u'plone.footer' in hidden, 'Plone footer not hidden in footer viewlet.')
+        self.failUnless(u'plone.colophon' in hidden, 'Plone colophon not hidden in footer viewlet')
     
     def testViewletAvailability(self):
-        from edrn.theme.browser.viewlets import NCIBar, EDRNSiteActions, EDRNLogo, EDRNFooter
+        from edrn.theme.browser.viewlets import NCIBar, EDRNSiteActions, EDRNLogo, EDRNFooter, EDRNColophon
         self.failUnless(IViewlet.implementedBy(NCIBar))
         self.failUnless(IViewlet.implementedBy(EDRNSiteActions))
         self.failUnless(IViewlet.implementedBy(EDRNLogo))
         self.failUnless(IViewlet.implementedBy(EDRNFooter))
-
+        self.failUnless(IViewlet.implementedBy(EDRNColophon))
 
 def test_suite():
     suite = unittest.TestSuite()
