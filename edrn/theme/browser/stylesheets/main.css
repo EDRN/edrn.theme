@@ -1,5 +1,48 @@
 /* Stylesheet for the 'EDRN Theme' Plone theme */
 
+/* Links with differently colored link underlines - only for content */
+a {
+    color: #234956;
+}
+.documentContent p a {
+    text-decoration: none;
+    border-bottom: 1px #888 solid;
+}
+.documentContent p a:visited {
+    color: Purple;
+    background-color: transparent;
+}
+.documentContent p a:active {
+    color: Red;
+    background-color: transparent;
+}
+#content a:target {
+    background-color: #fd7 !important;
+}
+.documentContent li a {
+    text-decoration: none;
+    border-bottom: 1px #888 solid;
+}
+.documentContent li a:visited {
+    color: Purple;
+}
+.documentContent li a:active {
+    color: Red;
+}
+.documentContent dd a {
+    text-decoration: none;
+    border-bottom: 1px #888 solid;
+}
+.documentContent dd a:visited {
+    color: Purple;
+    background-color: transparent;
+}
+.documentContent dd a:active {
+    color: Red;
+    background-color: transparent;
+}
+/* End links */
+
 #nci-bar {
 	text-align: center;
 }
