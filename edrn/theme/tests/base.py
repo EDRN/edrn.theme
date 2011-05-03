@@ -4,7 +4,7 @@
 
 '''EDRN Theme: test harness base classes.'''
 
-from Globals import package_home
+from App.Common import package_home
 from Products.Five import fiveconfigure
 from Products.Five import zcml
 from Products.PloneTestCase import PloneTestCase as ptc

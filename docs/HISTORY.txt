@@ -5,6 +5,11 @@ What follows is a history of changes from release to release.  For issue IDs
 mentioned below, you can learn more about them by visiting the issue tracker
 at https://oodt.jpl.nasa.gov/jira/browse/CA.
 
+1.1.0 - Plone 4
+---------------
+
+This release makes edrn.theme compatible with Plone 4.
+
 
 1.0.3 - Dark, Darker, Darko
 ---------------------------

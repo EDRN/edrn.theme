@@ -16,7 +16,7 @@ RESERVED. U.S. Government Sponsorship acknowledged.
         meta_type='Filesystem Directory View'
         directory='edrn.theme:skins/edrn_theme_styles'
     />
-    <skin-path name='EDRN Theme' based-on='Plone Default'>
+    <skin-path name='EDRN Theme' based-on='Plone Classic Theme'>
         <layer name='edrn_theme_custom_images' insert-after='custom'/>
         <layer name='edrn_theme_custom_templates' insert-after='edrn_theme_custom_images'/>
         <layer name='edrn_theme_styles' insert-after='edrn_theme_custom_templates'/>

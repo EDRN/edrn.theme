@@ -2,10 +2,10 @@
 # Copyright 2008 California Institute of Technology. ALL RIGHTS
 # RESERVED. U.S. Government Sponsorship acknowledged.
 
-from plone.theme.interfaces import IDefaultPloneLayer
+from plonetheme.classic.browser.interfaces import IThemeSpecific as IClassicTheme
 from zope.viewlet.interfaces import IViewletManager
 
-class IThemeSpecific(IDefaultPloneLayer):
+class IThemeSpecific(IClassicTheme):
     '''Marker interface that defines a Zope 3 browser layer.'''
     
 
