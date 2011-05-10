@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!--
-Copyright 2010 California Institute of Technology. ALL RIGHTS
+Copyright 2010-2011 California Institute of Technology. ALL RIGHTS
 RESERVED. U.S. Government Sponsorship acknowledged.
 -->
 <configure
@@ -9,8 +9,17 @@ RESERVED. U.S. Government Sponsorship acknowledged.
     <genericsetup:upgradeStep
         source='0'
         destination='1'
-        title='Null Upgrade Step'
+        title='Null Upgrade Step (0→1)'
         description='The EDRN theme requires no custom upgrade steps to go from profile 0 to profile 1.'
+        profile='edrn.theme:default'
+        handler='edrn.theme.upgrades.nullUpgradeStep'
+        sortkey='1'
+    />
+    <genericsetup:upgradeStep
+        source='1'
+        destination='4'
+        title='Null Upgrade Step (1→4)'
+        description='The EDRN theme requires no custom upgrade steps to go from profile 1 to profile 4.'
         profile='edrn.theme:default'
         handler='edrn.theme.upgrades.nullUpgradeStep'
         sortkey='1'
