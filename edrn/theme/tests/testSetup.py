@@ -72,6 +72,11 @@ class TestSetup(EDRNThemeTestCase):
         self.failUnless(IViewlet.implementedBy(EDRNLogo))
         self.failUnless(IViewlet.implementedBy(EDRNFooter))
         self.failUnless(IViewlet.implementedBy(EDRNColophon))
+    
+    def testLoginForm(self):
+        skinsTool = getToolByName(self.portal, 'portal_skins')
+        templates = skinsTool.getSkinByPath('edrn_theme_custom_templates').keys()
+        self.failUnless('login_form' in templates, "Customized login_form doesn't appear in the EDRN skin custom templates")
 
 def test_suite():
     suite = unittest.TestSuite()
