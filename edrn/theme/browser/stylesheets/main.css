@@ -44,20 +44,20 @@ a {
 /* End links */
 
 #nci-bar {
-    text-align: center;
+	text-align: center;
 }
 #nci-bar div {
-    background-color: #a90101;
-    height: 43px;
-    left: 0px;
-    margin: 0 0 0 0;
-    padding: 0 0 0 32px;
+	background-color: #a90101;
+	height: 43px;
+	left: 0px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 32px;
 }
 
 h1 {
-    font-size: 300%;
-    color: rgb(113, 156, 199);
-    border-bottom: none;
+	font-size: 300%;
+	color: rgb(113, 156, 199);
+	border-bottom: none;
 }
 h2 {
     font-weight: bold;
@@ -68,45 +68,45 @@ h3 {
 }
 
 #edrn-logo {
-    height: 68px;
-    width: 974px;
-    margin: 0px auto;
-    padding: 0 0 0 32px;
+	height: 68px;
+	width: 974px;
+	margin: 0px auto;
+	padding: 0 0 0 32px;
 }
 img#edrnlogo-logo {
-    width: 64px;
-    margin-top: -20px;
-    padding: 3px;
-    margin-right: 5px;
-    vertical-align: top;
-    float: left;
-    border: solid 0px #955;
+	width: 64px;
+	margin-top: -20px;
+	padding: 3px;
+	margin-right: 5px;
+	vertical-align: top;
+	float: left;
+	border: solid 0px #955;
 }
-div#edrn-logo h1 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+#edrn-logo h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-top: 25px;
-    padding-bottom: 15px;
-    margin-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 15px;
     line-height: 16px;
     text-align: left;
     width: 974px;
     font-size: 31px;
     font-weight: bold;
-    border: none;
-    color: black;
+	border: none;
+	color: black;
 }
-div#edrn-logo h2 {
-    padding: 0 0 0 78px;
+#edrn-logo h2 {
+	padding: 0 0 0 0;
     margin: -45px auto 16px auto;
     font-size: 12px;
     font-weight: normal;
     font-style: italic;
     color: #222;
-    border: none;
+	border: none;
 }
 div#dcplogo {
-    width: 974px;
-    margin: 25px auto 0 auto;
+	width: 974px;
+	margin: 0px auto 0 auto;
 }
 h2.dcplogo {
     border-bottom: 0 none;
@@ -123,49 +123,49 @@ h2.dcplogo {
 }
 
 #visual-portal-wrapper {
-    width: 976px;
-    padding: 0 auto;
-    margin:auto;
+	width: 976px;
+	padding: 0 auto;
+	margin:auto;
 }
 
 #portal-globalnav {
-    background-color: white;
-    font-size: 115%;
-    padding-top: 1em;
-    text-align: left;
+	background-color: white;
+	font-size: 115%;
+	padding-top: 1em;
+	text-align: left;
 }
 #portal-globalnav li {
-    margin-bottom:0px;
+	margin-bottom:0px;
 }
 #portal-globalnav li a {
-    color: white;
-    padding-top: 0.0em;
+	color: white;
+	padding-top: 0.0em;
 }
 #portal-globalnav li.selected a {
-    color: black;
+	color: black;
 }
 
 #portal-breadcrumbs {
-    border-bottom: none;
-    margin-bottom: 0.5em;
+	border-bottom: none;
+	margin-bottom: 0.5em;
 }
 
 #portal-footer {
-    background-color: white;
-    border-bottom: none;
+	background-color: white;
+	border-bottom: none;
 }
 #portal-footer a,
 #portal-footer a:visited {
-    color: #777;
+	color: #777;
 }
 #portal-footer ul {
-    list-style-image: none;
-    list-style-type: none;
-    margin-bottom: 0;
+	list-style-image: none;
+	list-style-type: none;
+	margin-bottom: 0;
 }
 #portal-footer ul li {
-    margin-right: 1em;
-    display: inline !important;
+	margin-right: 1em;
+	display: inline !important;
 }
 
 #portal-searchbox {
@@ -267,7 +267,7 @@ h2.dcplogo {
     position:relative;
     float:right;
     right:0px;
-    top:0px;    
+    top:0px;	
     width:340px;
     height:95px;
     border:solid 1px #ccc;
@@ -342,20 +342,20 @@ h2.dcplogo {
 
 /* Undo edrn-overlay's prettification which breaks PloneFormGen-generated content: */
 div#content div#pfg-fieldwrapper label {
-    display: inline;
-    background-color: transparent;
-    color: black;
-    padding: 0;
-    border-bottom: none;
-    margin: 0;
-    font-weight: bold;
+	display: inline;
+	background-color: transparent;
+	color: black;
+	padding: 0;
+	border-bottom: none;
+	margin: 0;
+	font-weight: bold;
 }
 div#content div#pfg-fieldwrapper span {
-    padding-left: 0.1em;
-    text-align: left;
+	padding-left: 0.1em;
+	text-align: left;
 }
 div#content div#pfg-fieldwrapper span.fieldRequired {
-    padding-left: 1em;
+	padding-left: 1em;
 }
 
 /* Generic boxes of attributes */
@@ -406,13 +406,13 @@ div#content div#pfg-fieldwrapper span.fieldRequired {
 }
 
 div#content .widget-fieldset ul li label {
-    display: inline;
-    background-color: transparent;
-    color: black;
-    padding: 0 0 0 0.3em;
-    border-bottom: none;
-    margin: 0;
-    font-weight: normal;
+	display: inline;
+	background-color: transparent;
+	color: black;
+	padding: 0 0 0 0.3em;
+	border-bottom: none;
+	margin: 0;
+	font-weight: normal;
 }
 div#content .widget-fieldset ul li input {
     margin: 0.2em 0 0 0;
