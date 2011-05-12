@@ -167,6 +167,11 @@ div#content div label.hiddenStructure {
     margin: -1px 0 0 -1px;
     width: 1px;
 }
+div#content div form label {
+    display: inline;
+    background: transparent;
+    border: none;
+}
 div#content #biomarker-aliases span {
 	padding-left:0px;
 	line-height:auto;
