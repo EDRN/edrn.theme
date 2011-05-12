@@ -17,7 +17,7 @@ class EDRNSiteActions(SiteActionsViewlet):
     def update(self):
         super(EDRNSiteActions, self).update()
         contextState = getMultiAdapter((self.context, self.request), name=u'plone_context_state')
-        self.siteActions = contextState.actions().get('edrn-actions', None)
+        self.siteActions = contextState.actions('edrn-actions')
     
 
 class EDRNLogo(LogoViewlet):
@@ -35,7 +35,7 @@ class EDRNFooter(ViewletBase):
     def update(self):
         super(EDRNFooter, self).update()
         contextState = getMultiAdapter((self.context, self.request), name=u'plone_context_state')
-        self.siteActions = contextState.actions().get('site_actions', None)
+        self.siteActions = contextState.actions('site_actions')
     
 class EDRNDefaultSiteSearchBox(SearchBoxViewlet):
     '''EDRN Default Site Search Box --upper right hand corner'''
