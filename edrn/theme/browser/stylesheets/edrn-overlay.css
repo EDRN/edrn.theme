@@ -156,6 +156,17 @@ div#content div label {
 	margin-bottom:8px;
 	font-weight:normal;
 }
+div#content div label.hiddenStructure {
+    display: block;
+    background: transparent;
+    background-image: none; /* safari bug */
+    border: none;
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    margin: -1px 0 0 -1px;
+    width: 1px;
+}
 div#content #biomarker-aliases span {
 	padding-left:0px;
 	line-height:auto;
