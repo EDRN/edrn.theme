@@ -5,6 +5,21 @@ What follows is a history of changes from release to release.  For issue IDs
 mentioned below, you can learn more about them by visiting the issue tracker
 at https://oodt.jpl.nasa.gov/jira/browse/CA.
 
+1.1.1 - Upgrade Cleanup
+-----------------------
+
+This release includes the following:
+
+* No more horrible padding that's been appearing on the left side of virtually
+  every damn span everywhere.
+* New unit test to check for customized login_form and the new login_form.
+* Hidden labels of class hiddenStructure that are for accessibility only.
+* Making the labels on the add/remove addons list appear reasonable.
+* Bringing in customizations made TTW at NCI that worked around IE7 display
+  issues.
+* Upgrade steps to profile 4.
+
+
 1.1.0 - Plone 4
 ---------------
 
