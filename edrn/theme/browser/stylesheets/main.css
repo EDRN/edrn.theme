@@ -192,6 +192,7 @@ h2.dcplogo {
     padding:3px 3px 3px 18px;
 }
 
+#q-collabGroups  a {background: url(++resource++edrn.theme.images/s-collabgroups.gif);}
 #q-committees    a {background: url(++resource++edrn.theme.images/s-committees.gif);}
 #q-fund          a {background: url(++resource++edrn.theme.images/s-newfund.gif);}
 #q-book          a {background: url(++resource++edrn.theme.images/s-newbook.gif);}
@@ -417,3 +418,4 @@ div#content .widget-fieldset ul li label {
 div#content .widget-fieldset ul li input {
     margin: 0.2em 0 0 0;
 }
+

@@ -5,6 +5,14 @@ What follows is a history of changes from release to release.  For issue IDs
 mentioned below, you can learn more about them by visiting the issue tracker
 at https://oodt.jpl.nasa.gov/jira/browse/CA.
 
+
+1.1.2 - Icons
+-------------
+
+This release adds icons (and corresponding CSS) for the QuickLinks portlet,
+including the Collaborative Groups icon with hover effect.
+
+
 1.1.1 - Upgrade Cleanup
 -----------------------
 
