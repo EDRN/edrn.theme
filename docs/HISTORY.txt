@@ -5,15 +5,26 @@ What follows is a history of changes from release to release.  For issue IDs
 mentioned below, you can learn more about them by visiting the issue tracker
 at https://oodt.jpl.nasa.gov/jira/browse/CA.
 
+1.2.0 — Plone 4.1
+-----------------
 
-1.1.2 - Icons
+This release makes the EDRN theme compatible with Plone 4.1.  It also upgrades
+the test harness to use the plone.app.testing fixtures.
+
+It also repairs a long-standing issue (CA-747): the logged_out template has a
+form where you can immediately log in again if you require.  However, the
+Apache circuitry sends that form out over HTTP, and the form action inherits
+that HTTP, when it should go over HTTPS.  The EDRN theme removes the form.
+ 
+
+1.1.2 — Icons
 -------------
 
 This release adds icons (and corresponding CSS) for the QuickLinks portlet,
 including the Collaborative Groups icon with hover effect.
 
 
-1.1.1 - Upgrade Cleanup
+1.1.1 — Upgrade Cleanup
 -----------------------
 
 This release includes the following:
@@ -28,13 +39,13 @@ This release includes the following:
 * Upgrade steps to profile 4.
 
 
-1.1.0 - Plone 4
+1.1.0 — Plone 4
 ---------------
 
 This release makes edrn.theme compatible with Plone 4.
 
 
-1.0.3 - Dark, Darker, Darko
+1.0.3 — Dark, Darker, Darko
 ---------------------------
 
 The only issue addressed this time 'round is:
@@ -42,7 +53,7 @@ The only issue addressed this time 'round is:
 * CA-729 - Change the color of the hyperlinks on the Public Portal
 
 
-1.0.2 - The Little Dutch Boy
+1.0.2 — The Little Dutch Boy
 ----------------------------
 
 The only issue addressed by this release is:
@@ -50,7 +61,7 @@ The only issue addressed by this release is:
 * CA-632 - Portal 3 leaks memory?
 
 
-1.0.1 - Anal Retentiveness
+1.0.1 — Anal Retentiveness
 --------------------------
 
 The only issue addressed by this release is:
@@ -58,7 +69,7 @@ The only issue addressed by this release is:
 * CA-529 - Remove "Valid XHTML" and "Valid CSS" links
 
 
-1.0.0 - Fantasizing on Facetizing
+1.0.0 — Fantasizing on Facetizing
 ---------------------------------
 
 After being in production for several months we've decided to call it version
@@ -75,7 +86,7 @@ You can learn more about this issue by visiting the Informatics Center's issue
 tracker at https://oodt.jpl.nasa.gov/jira/browse/CA.
 
 
-0.0.6 - The Eleventh Hour
+0.0.6 — The Eleventh Hour
 -------------------------
 
 After viewing the new look-and-feel for EDRN across a variety of applications,
@@ -84,13 +95,13 @@ satisfy them.  See https://oodt.jpl.nasa.gov/jira/browse/CA-599 as well as
 https://oodt.jpl.nasa.gov/jira/browse/CA-600 for more details.
 
 
-0.0.5 - Unknown release
+0.0.5 — Unknown release
 -----------------------
 
 It's a myyyyssteeeerrry!
 
 
-0.0.4 - Small Screens Welcome
+0.0.4 — Small Screens Welcome
 -----------------------------
 
 The following issues have been addressed in this release:
@@ -101,7 +112,7 @@ The following issues have been addressed in this release:
   separated from search result facet links
 
 
-0.0.3 - Quicklinks Portlet Look and Feel
+0.0.3 — Quicklinks Portlet Look and Feel
 ----------------------------------------
 
 The following issues have been addressed in this release:
@@ -110,21 +121,21 @@ The following issues have been addressed in this release:
   left side menu of the portal
 
 
-0.0.2 - Modernization and Metadata
+0.0.2 — Modernization and Metadata
 ----------------------------------
 
 * Copious work by Andrew Hart to further modernize the look and feel for EDRN.
 * Updated project metadata.
 
 
-0.0.1 - FCS
+0.0.1 — FCS
 -----------
 
 This is a first customer ship, though it should be considered a work in
 progress.
 
 
-0.0.0 - Unreleased
+0.0.0 — Unreleased
 ------------------
 
 Initial release.
