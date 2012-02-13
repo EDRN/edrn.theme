@@ -5,8 +5,8 @@
 '''Test the set up of the EDRN Theme.
 '''
 
-import unittest
-from edrn.theme.tests.base import EDRNThemeTestCase
+from edrn.theme.testing import EDRN_THEME_INTEGRATION_TESTING
+import unittest2 as unittest
 from zope.component import getUtility
 from plone.app.viewletmanager.interfaces import IViewletSettingsStorage
 from zope.viewlet.interfaces import IViewlet
@@ -14,12 +14,15 @@ from Products.CMFCore.utils import getToolByName
 
 _themeName = u'EDRN Theme'
 
-class TestSetup(EDRNThemeTestCase):
+class SetupTest(unittest.TestCase):
     '''Unit tests for the setup of the EDRN theme.'''
+    layer = EDRN_THEME_INTEGRATION_TESTING
     
-    def afterSetUp(self):
+    def setUp(self):
+        super(SetupTest, self).setUp()
         self.storage = getUtility(IViewletSettingsStorage)
-
+        self.portal = self.layer['portal']
+    
     def testActions(self):
         actions = getToolByName(self.portal, 'portal_actions')
         for name in ('home', 'sitemap', 'contact'):
@@ -78,8 +81,14 @@ class TestSetup(EDRNThemeTestCase):
         templates = skinsTool.getSkinByPath('edrn_theme_custom_templates').keys()
         self.failUnless('login_form' in templates, "Customized login_form doesn't appear in the EDRN skin custom templates")
 
+    def testLogoutForm(self):
+        skinsTool = getToolByName(self.portal, 'portal_skins')
+        templates = skinsTool.getSkinByPath('edrn_theme_custom_templates').keys()
+        self.failUnless('logged_out' in templates, "Customized logged_out template isn't in the EDRN skin custom templates")
+
+
 def test_suite():
-    suite = unittest.TestSuite()
-    suite.addTest(unittest.makeSuite(TestSetup))
-    return suite
-    
+    return unittest.defaultTestLoader.loadTestsFromName(__name__)
+
+if __name__ == '__main__':
+    unittest.main(defaultTest='test_suite')
