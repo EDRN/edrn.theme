@@ -9,7 +9,7 @@ import os.path
 # ------------
 
 _name        = 'edrn.theme'
-_version     = '1.1.3'
+_version     = '1.2.0'
 _description = 'Look and feel for websites of the Early Detection Research Network (EDRN).'
 _url         = 'http://cancer.jpl.nasa.gov/products/edrn-theme'
 _downloadURL = 'http://oodt.jpl.nasa.gov/dist/edrn-theme'
@@ -22,8 +22,12 @@ _zipSafe     = False
 _keywords    = 'web zope plone theme edrn cancer biomarkers'
 _requirements = [
     'setuptools',
-    'Plone',
+    'Products.CMFPlone',
+    'plone.app.layout',
 ]
+_extras = {
+    'test': ['plone.app.testing'],
+}
 _classifiers = [
     'Development Status :: 4 - Beta',
     'Environment :: Web Environment',
@@ -56,6 +60,7 @@ setup(
     description=_description,
     download_url=_downloadURL,
     entry_points=_entryPoints,
+    extras_require=_extras,
     include_package_data=True,
     install_requires=_requirements,
     keywords=_keywords,
