@@ -24,6 +24,7 @@ _requirements = [
     'setuptools',
     'Products.CMFPlone',
     'plone.app.layout',
+    'zope.globalrequest',
 ]
 _extras = {
     'test': ['plone.app.testing'],

@@ -5,6 +5,12 @@ What follows is a history of changes from release to release.  For issue IDs
 mentioned below, you can learn more about them by visiting the issue tracker
 at https://oodt.jpl.nasa.gov/jira/browse/CA.
 
+1.2.1 — Upgrades
+----------------
+
+Made compatible with Plone 4.1.5.
+
+
 1.2.0 — Plone 4.1
 -----------------
 
