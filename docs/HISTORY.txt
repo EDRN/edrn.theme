@@ -8,7 +8,8 @@ at https://oodt.jpl.nasa.gov/jira/browse/CA.
 1.2.1 — Upgrades
 ----------------
 
-Made compatible with Plone 4.1.5.
+• Made compatible with Plone 4.1.5.
+• CA-983 - unencrypted login form
 
 
 1.2.0 — Plone 4.1

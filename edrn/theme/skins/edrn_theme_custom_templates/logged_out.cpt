@@ -27,10 +27,10 @@
 
   <!-- EDRN Modification: we remove the ability to log in again to protect against insecure forms, instead provide
   a link to the login_form (which thanks to Apache circuitry is forced over https); see CA-747. -->
-  <div class="documentDescription" tal:omit-tag=''
+  <div class="documentDescription" tal:condition='nothing'
      i18n:translate="description_loginagain">You can log in again below.</div>
 
-  <div id="content-core" tal:omit-tag=''>
+  <div id="content-core" tal:condition='nothing'>
       <metal:login use-macro="context/login_form/macros/login" />
   </div>
 
