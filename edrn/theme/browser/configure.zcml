@@ -24,13 +24,6 @@
         layer='.interfaces.IThemeSpecific'
     />
 
-    <!-- Resource directory for javascripts -->
-    <browser:resourceDirectory
-        name='edrn.theme.javascripts'
-        directory='javascripts'
-        layer='.interfaces.IThemeSpecific'
-    />
-
     <!-- Viewlet managers -->
     <browser:viewletManager
         name='edrn.nci_topmost'
@@ -67,20 +60,6 @@
         layer='.interfaces.IThemeSpecific'
         permission='zope2.View'
         class='.viewlets.EDRNLogo'
-    />
-    <browser:viewlet
-        name='edrn.skin_logo'
-        manager='plone.app.layout.viewlets.interfaces.IPortalHeader'
-        layer='.interfaces.IThemeSpecific'
-        permission='zope2.View'
-        class='.viewlets.EDRNSkinLogo'
-    />
-    <browser:viewlet
-        name='edrn.default_site_search_box'
-        manager='plone.app.layout.viewlets.interfaces.IPortalHeader'
-        layer='.interfaces.IThemeSpecific'
-        permission='zope2.View'
-        class='.viewlets.EDRNDefaultSiteSearchBox'
     />
     <browser:viewlet
         name='edrn.nci_footer'
