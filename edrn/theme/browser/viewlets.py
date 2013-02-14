@@ -24,11 +24,6 @@ class EDRNLogo(LogoViewlet):
     '''EDRN logo viewlet.'''
     index = ViewPageTemplateFile('edrn-logo.pt')
 
-class EDRNSkinLogo(LogoViewlet):
-    '''EDRN Skin logo viewlet.'''
-    index = ViewPageTemplateFile('edrn-skin-logo.pt')
-    
-    
 class EDRNFooter(ViewletBase):
     '''EDRN footer items viewlet.'''
     index = ViewPageTemplateFile('edrn-footer.pt')
@@ -36,10 +31,6 @@ class EDRNFooter(ViewletBase):
         super(EDRNFooter, self).update()
         contextState = getMultiAdapter((self.context, self.request), name=u'plone_context_state')
         self.siteActions = contextState.actions('site_actions')
-    
-class EDRNDefaultSiteSearchBox(SearchBoxViewlet):
-    '''EDRN Default Site Search Box --upper right hand corner'''
-    index = ViewPageTemplateFile('defaultSiteSearchBox.pt');
 
 class EDRNColophon(ViewletBase):
     '''EDRN colophon gives the "How this site was made" type info'''
