@@ -10,5 +10,7 @@
        name="edrn_theme_custom_templates"/>
    <cmf:registerDirectory
        name="edrn_theme_styles"/>
+   <cmf:registerDirectory
+       name="edrn_theme_javascripts"/>
 
 </configure>
