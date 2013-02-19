@@ -24,4 +24,13 @@ RESERVED. U.S. Government Sponsorship acknowledged.
         handler='edrn.theme.upgrades.nullUpgradeStep'
         sortkey='1'
     />
+    <genericsetup:upgradeStep
+        source='4'
+        destination='5'
+        title='Upgrade Step (4→5): custom skins and viewlets'
+        description='EDRN theme upgrade from profile 4 to 5 with skins (new Javascripts layer) and viewlets (obsolete viewlets).'
+        profile='edrn.theme:default'
+        handler='edrn.theme.upgrades.upgrade4to5'
+        sortkey='1'
+    />
 </configure>
