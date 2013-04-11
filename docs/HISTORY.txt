@@ -8,6 +8,8 @@ at https://oodt.jpl.nasa.gov/jira/browse/CA.
 1.2.2 — TBD
 -----------
 
+• Made compatible with Plone 4.2.
+
 
 1.2.1 — Upgrades
 ----------------
