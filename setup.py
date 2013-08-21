@@ -17,9 +17,11 @@ _author      = 'Andrew Hart'
 _authorEmail = 'andrew.hart@jpl.nasa.gov'
 _license     = 'Proprietary'
 _namespaces  = ['edrn']
-_entryPoints = {}
 _zipSafe     = False
 _keywords    = 'web zope plone theme edrn cancer biomarkers'
+_entryPoints = {
+    'z3c.autoinclude.plugin': ['target=plone'],
+}
 _requirements = [
     'setuptools',
     'Products.CMFPlone',

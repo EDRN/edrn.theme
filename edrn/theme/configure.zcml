@@ -10,12 +10,13 @@ RESERVED. U.S. Government Sponsorship acknowledged.
     xmlns:zcml='http://namespaces.zope.org/zcml'
     i18n_domain="edrn.theme">
 
-   <five:registerPackage package="." initialize=".initialize" />
+    <five:registerPackage package="." initialize=".initialize" />
+    <includeDependencies package='.' />
 
-   <include package=".browser" />
+    <include package=".browser" />
 
-   <include file="skins.zcml" />
-   <include file="profiles.zcml" />
+    <include file="skins.zcml" />
+    <include file="profiles.zcml" />
     <include
         zcml:condition='installed Products.GenericSetup.upgrade'
         file='upgrades.zcml'
