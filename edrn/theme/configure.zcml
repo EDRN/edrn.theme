@@ -11,6 +11,7 @@ RESERVED. U.S. Government Sponsorship acknowledged.
     i18n_domain="edrn.theme">
 
     <five:registerPackage package="." initialize=".initialize" />
+    <include package='z3c.autoinclude' file='meta.zcml' />
     <includeDependencies package='.' />
 
     <include package=".browser" />
