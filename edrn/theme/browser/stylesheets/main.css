@@ -204,6 +204,8 @@ h2.dcplogo {
 #q-standards     a {background: url(++resource++edrn.theme.images/s-standards.gif);}
 #q-newMembers    a {background: url(++resource++edrn.theme.images/s-newMembers.gif);}
 #q-members       a {background: url(++resource++edrn.theme.images/s-membersList.gif);}
+#q-informatics   a {background: url(++resource++edrn.theme.images/s-informatics.png);}
+#q-nct           a {background: url(++resource++edrn.theme.images/s-nct.png);}
 
 #portal-column-one .visualPadding {
     padding: 1.2em 0 1em 1em;
