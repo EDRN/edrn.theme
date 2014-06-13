@@ -15,7 +15,7 @@ _url         = 'http://cancer.jpl.nasa.gov/products/edrn-theme'
 _downloadURL = 'http://oodt.jpl.nasa.gov/dist/edrn-theme'
 _author      = 'Andrew Hart'
 _authorEmail = 'andrew.hart@jpl.nasa.gov'
-_license     = 'Proprietary'
+_license     = 'ALv2'
 _namespaces  = ['edrn']
 _zipSafe     = False
 _keywords    = 'web zope plone theme edrn cancer biomarkers'
@@ -36,7 +36,7 @@ _classifiers = [
     'Environment :: Web Environment',
     'Framework :: Plone',
     'Intended Audience :: Healthcare Industry',
-    'License :: Other/Proprietary License',
+    'License :: OSI Approved :: Apache Software License',
     'Operating System :: OS Independent',
     'Programming Language :: Python',
     'Topic :: Internet :: WWW/HTTP',
