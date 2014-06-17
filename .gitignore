@@ -1,0 +1,17 @@
+.DS_Store
+._*
+*.py[co]
+.*.cfg
+*.egg-info
+dist
+build
+bin
+parts
+var
+dep-src
+develop-eggs
+eggs
+downloads
+*.log
+*~
+doc.txt
