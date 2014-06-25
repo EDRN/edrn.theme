@@ -1,0 +1,10 @@
+{
+	"folders":
+        [
+        {
+            "path": ".",
+            "folder_exclude_patterns": ["bin", "dep-src", "develop-eggs", "dist", "build", "*.egg-info", "parts", "var"],
+            "file_exclude_patterns": [".*.cfg", "bootstrap.py", "doc.txt", "*.sublime-*"]
+        }
+	]
+}
