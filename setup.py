@@ -11,8 +11,6 @@ import os.path
 _name        = 'edrn.theme'
 _version     = '1.2.5'
 _description = 'Look and feel for websites of the Early Detection Research Network (EDRN).'
-_url         = 'https://pypi.python.org/pypi/edrn.theme'
-_downloadURL = 'https://github.com/EDRN/edrn.theme/archive/' + _version + '.zip'
 _author      = 'Andrew Hart'
 _authorEmail = 'andrew.hart@jpl.nasa.gov'
 _license     = 'ALv2'
@@ -61,7 +59,6 @@ setup(
     author_email=_authorEmail,
     classifiers=_classifiers,
     description=_description,
-    download_url=_downloadURL,
     entry_points=_entryPoints,
     extras_require=_extras,
     include_package_data=True,
@@ -72,7 +69,7 @@ setup(
     name=_name,
     namespace_packages=_namespaces,
     packages=find_packages(exclude=['ez_setup']),
-    url=_url,
+    url='https://pypi.python.org/pypi/' + _name,
     version=_version,
     zip_safe=_zipSafe,
 )
