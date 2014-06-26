@@ -5,6 +5,12 @@ What follows is a history of changes from release to release.  For issue IDs
 mentioned below, you can learn more about them by visiting the issue tracker
 at https://oodt.jpl.nasa.gov/jira/browse/CA.
 
+1.2.5 — I Had Some Chicken; Pass Me the FLOSS
+---------------------------------------------
+
+• First official release as free/libre/open source software.
+
+
 1.2.4 — Quickie
 ---------------
 
