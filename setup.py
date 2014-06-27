@@ -51,7 +51,7 @@ def _read(*rnames):
 
 _header = '*' * len(_name) + '\n' + _name + '\n' + '*' * len(_name)
 _longDescription = _header + '\n\n' + _read('README.rst') + '\n\n' + _read('docs', 'INSTALL.txt') + '\n\n' \
-    + _read('docs', 'HISTORY.txt') + _read('docs', 'LICENSE.txt')
+    + _read('docs', 'HISTORY.txt') + '\n'
 open('doc.txt', 'w').write(_longDescription)
 
 setup(
