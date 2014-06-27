@@ -69,7 +69,7 @@ setup(
     name=_name,
     namespace_packages=_namespaces,
     packages=find_packages(exclude=['ez_setup']),
-    url='https://pypi.python.org/pypi/' + _name,
+    url='https://github.com/EDRN/' + _name,
     version=_version,
     zip_safe=_zipSafe,
 )
