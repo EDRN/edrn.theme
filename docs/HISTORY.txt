@@ -10,6 +10,7 @@ at https://oodt.jpl.nasa.gov/jira/browse/CA.
 -----------
 
 • Cleans up packaging and obeys PEP-470.
+• Uses Travis-CI's new container infrastructure with caching.
 
 
 1.2.5 — I Had Some Chicken; Pass Me the FLOSS

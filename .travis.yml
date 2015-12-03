@@ -1,7 +1,11 @@
 language: python
+sudo: false
 python: 2.7
 install:
     - mkdir -p buildout-cache/downloads
     - python bootstrap.py -c travis.cfg
     - bin/buildout -N -t 3 -c travis.cfg
 script: bin/test
+cache:
+    directories:
+        - buildout-cache/eggs
