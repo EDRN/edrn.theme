@@ -9,7 +9,7 @@ import os.path
 # ------------
 
 _name        = 'edrn.theme'
-_version     = '1.2.6'
+_version     = '1.2.7'
 _description = 'Look and feel for websites of the Early Detection Research Network (EDRN).'
 _author      = 'Andrew Hart'
 _authorEmail = 'andrew.hart@jpl.nasa.gov'
