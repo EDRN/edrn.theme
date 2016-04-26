@@ -6,8 +6,8 @@ mentioned below, you can learn more about them by visiting the issue tracker
 at https://oodt.jpl.nasa.gov/jira/browse/CA.
 
 
-1.2.6 — TBD
------------
+1.2.6 — Obeyance
+----------------
 
 • Cleans up packaging and obeys PEP-470.
 • Uses Travis-CI's new container infrastructure with caching.
