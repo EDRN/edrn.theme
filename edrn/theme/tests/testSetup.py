@@ -6,7 +6,7 @@
 '''
 
 from edrn.theme.testing import EDRN_THEME_INTEGRATION_TESTING
-import unittest2 as unittest
+import unittest
 from zope.component import getUtility
 from plone.app.viewletmanager.interfaces import IViewletSettingsStorage
 from zope.viewlet.interfaces import IViewlet
