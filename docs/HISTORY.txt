@@ -6,10 +6,11 @@ mentioned below, you can learn more about them by visiting the issue tracker
 at https://oodt.jpl.nasa.gov/jira/browse/CA.
 
 
-1.2.7 — TBD
------------
+1.2.7 — Plone 4.3.9 Upgrade
+---------------------------
 
 • CA-1341
+• CA-1592
 
 
 1.2.6 — Obeyance
